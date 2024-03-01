@@ -1,0 +1,130 @@
+﻿@using EFCore.Models;
+@model CFTKs;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+
+<body>
+	<div id="Third_kind_register">
+		<form id="submitForm">
+			<table width="100%">
+				<tr>
+					<td>
+						<font color="black">
+							您正在做的业务是：人力资源--客户化设置--人力资源档案管理设置--III级机构设置--III级机构添加
+						</font>
+					</td>
+				</tr>
+				<tr>
+					<td align="right">
+						<input type="button" value="提交" class="btn btn-primary" id="submitButton" data-url="@Url.Action("Third_kind_register_success","CFTKs")" @*v-on:click="submitForm()" *@>
+						<input type="button" value="返回" class="btn btn-info updatePage"
+							   data-url="@Url.Action("Third_kind","CFTKs")">
+					</td>
+				</tr>
+			</table>
+
+			<table width="100%" border="1" cellpadding=0 cellspacing=1
+				   bordercolorlight=#848284 bordercolordark=#eeeeee
+				   class="table">
+				<tr>
+					<td width="19%" class="TD_STYLE1">
+						I,II级机构名称
+					</td>
+					<td width="81%" class="TD_STYLE2">
+						@* 级联控件 *@
+						<el-cascader v-model="kindId"
+									 placeholder="请选择机构"
+									 :options="list"
+									 :props="{ value:'kindId', label:'kindName', expandTrigger: 'hover' }"
+									 v-on:change="changeSelectPath"></el-cascader>
+						<input type="text" style="display:none;" v-model="fkId" name="FirstKindId" id="FirstKindId" />
+						<input type="text" style="display:none;" v-model="skId" name="SecondKindId" id="SecondKindId" />
+					</td>
+				</tr>
+				<tr>
+					<td class="TD_STYLE1">
+						III级机构名称
+					</td>
+					<td class="TD_STYLE2">
+						<input type="text" name="ThirdKindName" v-model="tkName" id="ThirdKindName" class="form-control rounded" />
+					</td>
+				</tr>
+				<tr>
+					<td class="TD_STYLE1">
+						销售责任人编号（多个编号之间请用"半角逗号"加"一个空格"隔开，如", "）
+					</td>
+					<td class="TD_STYLE2">
+						<textarea type="text" name="ThirdKindSaleId" v-model="tksId" id="ThirdKindSaleId" class="form-control"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td class="TD_STYLE1">
+						是否为零售店（是/否）
+					</td>
+					<td class="TD_STYLE2">
+						<select v-model="tkir" name="ThirdKindIsRetail" class="form-select">
+							<option selected="selected" value="1">是</option>
+							<option value="0">否</option>
+						</select>
+
+					</td>
+				</tr>
+			</table>    <script src="~/js/updatego.js"></script>
+
+		</form>
+	</div>
+	<script>
+		new Vue({
+			el: '#Third_kind_register',
+			data: {
+				list:[],// 机构信息
+				kindId: [],// 选中的信息
+				fkId:"",
+				skId:"",
+				tkName:"",
+				tksId:"",
+				tkir:"",
+			},
+			methods: {
+				changeSelectPath() {
+					console.log(this.kindId)
+					if (this.kindId != null) {
+						this.fkId = this.kindId[0];
+						this.skId = this.kindId[1];
+					}
+				},
+				// submitForm() {
+				// 	console.log(this.fkId, this.skId, this.tkName, this.tksId, this.tkir)
+				// 	axios.post('@Url.Action("Third_kind_register_success","CFTKs")', {
+				// 		FirstKindId: this.fkId,
+				// 		SecondKindId: this.skId,
+				// 		ThirdKindName: this.tkName,
+				// 		ThirdKindSaleId: this.tksId,
+				// 		ThirdKindIsRetail: this.tkir,
+				// 	})
+				// 	.then(res => {
+				// 		console.log(res.data);
+				// 	})
+				// }
+			},
+			mounted() {
+				//向后端请求一二级机构信息
+				axios.get("@Url.Action("GetCFFKsAndCFSKs","CFTKs")")
+					.then(res => {
+						console.log(res.data)
+						this.list = res.data
+					})
+			}
+		})
+	</script>
+</body>
+</html>

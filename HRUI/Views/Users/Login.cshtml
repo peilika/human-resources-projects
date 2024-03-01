@@ -1,0 +1,195 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Vue.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <!-- Element UI CDN -->
+    <link rel="stylesheet"
+          href="https://unpkg.com/element-ui/lib/theme-chalk/index.css" />
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+
+    <!-- Axios CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.23.0/dist/axios.min.js"></script>
+    <style scoped>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .login-page {
+             /* linear-gradient(180deg, #2af598 0%, #009efd 100%) */
+            background-image: url('/images/wallper-02.jpg');
+            background-size:cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .clearfix{
+            text-align: center;
+            margin-bottom:45px;
+        }
+
+        .login-title {
+            font-size: 20px;
+        }
+
+        .box-card {
+            width: 375px;
+        }
+
+        .form-content{
+            background-color:rgba(255, 255, 255, 0.9);
+            border-radius:10px;
+            padding:40px;
+            width:17%;
+            height:42%;
+        }
+
+    </style>
+    <title>登录</title>
+</head>
+<body>
+    <div id="Login" class="login-page">
+        <div class="form-content">
+            <div slot="header" class="clearfix">
+                <span class="login-title">🔐后台管理系统</span>
+            </div>
+            <div class="login-form">
+                <el-form :model="form" :rules="loginRules" ref="loginForm">
+                    <el-form-item prop="userName">
+                        <el-input type="text" v-model="form.userName" auto-complete="off" placeholder="请输入用户名">
+                            <template slot="prepend"><i style="font-size:20px" class="el-icon-user"></i></template>
+                        </el-input>
+                    </el-form-item>
+                    <el-form-item prop="passWord">
+                        <el-input type="password" v-model="form.passWord" auto-complete="off" placeholder="请输入密码">
+                            <template slot="prepend"><i style="font-size:20px" class="el-icon-key"></i></template>
+                        </el-input>
+                    </el-form-item>
+                    <el-form-item>
+                        <el-button style="width:100%;" type="primary" v-on:click="handleLogin" :loading="loading">登录</el-button>
+                    </el-form-item>
+                    <el-form-item>
+                        <el-button style="width:100%;" type="info" v-on:click="goVlipix" :loading="goLoading">找好康的</el-button>
+                    </el-form-item>
+                </el-form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        new Vue({
+            el: '#Login',
+            name: 'Login',
+            data() {
+                return {
+                    loading: false,
+                    goLoading: false,
+                    form: {
+                        userName: '',
+                        passWord: ''
+                    },
+                    loginRules: {
+                        userName: [
+                            { required: true, message: '请输入账户', trigger: 'blur' },
+                        ],
+                        passWord: [
+                            { required: true, message: '请输入密码', trigger: 'blur' }
+                        ]
+                    }
+                }
+            },
+            methods: {
+                handleLogin() {
+                    this.$refs.loginForm.validate().then(() => {
+                        this.loading = true;
+                        //模拟异步请求后台接口 登录操作
+                        setTimeout(() => {
+                            console.log("username:" + this.form.userName, "password:" + this.form.passWord)
+                            this.login();
+                            this.loading = false;
+                        }, 1000)
+                    }).catch((error => {
+                        this.$message({
+                            message: '输入错误！',
+                            type: 'warning'
+                        });
+                    }))
+                },
+                login() {
+                    axios.get("@Url.Action("LoginAsync","Users")", {
+                        params: {
+                            uName: this.form.userName,
+                            uPassWord: this.form.passWord
+                        },
+                    })
+                    .then(res => {
+                        console.log(res.data);
+                        if (res.data != "") {
+                            sessionStorage.setItem("LoginUser", JSON.stringify(res.data));
+                            location.href = "@Url.Action("Index","Home")";
+                        } else {
+                            this.$message({type:'error',message:'登陆失败，账号或密码错误'});
+                        }
+                    })
+                },
+                goVlipix() {
+                    this.goLoading = true;
+                    location.href = "https://www.vilipix.com";
+                }
+            }
+        })
+    </script>
+</body>
+</html>
+@* 
+<script>
+		new Vue({
+			el: '#login',
+			data:{
+				username:"",
+				password:"",
+			},
+			methods:{
+				doLogin(){
+					console.log(this.username+","+this.password);
+					if(this.username == "" || this.password == ""){
+						this.$message({type: "info", message:"请输入账号或密码"})
+					}else{	
+						axios.post('/Users/LoginAsync', 
+						{
+							uName: this.username, 
+							uPassWord: this.password 
+						}, 
+						{
+							headers:{
+								'Content-Type': 'multipart/form-data'
+							}
+						})
+						.then(res => {
+							if (res.data != null) {
+								sessionStorage.setItem("LoginUser",JSON.stringify(res.data));
+								console.log(JSON.parse(sessionStorage.getItem("LoginUser")).uName);
+								location.href = "/Home/Index";
+							} else {
+								alert("登陆失败")
+							}
+						})
+					}
+				}
+			},
+		});
+	</script> *@

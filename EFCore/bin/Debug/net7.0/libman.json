@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "provider": "cdnjs",
+      "library": "element-ui@2.15.14",
+      "destination": "wwwroot/lib/element-ui/",
+      "files": [
+        "index.js"
+      ]
+    },
+    {
+      "provider": "cdnjs",
+      "library": "vue@2.7.14",
+      "destination": "wwwroot/lib/vue/",
+      "files": [
+        "vue.js"
+      ]
+    },
+    {
+      "provider": "cdnjs",
+      "library": "element-ui@2.15.14",
+      "destination": "wwwroot/lib/element-ui/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "axios@1.6.2",
+      "destination": "wwwroot/lib/axios/",
+      "files": [
+        "axios.js"
+      ]
+    }
+  ]
+}

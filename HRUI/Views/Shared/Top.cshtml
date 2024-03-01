@@ -1,0 +1,64 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<style>
+    #top{
+        display: flex;
+        align-items: center;
+        height:100%;
+        background-color: #252B48;
+    }
+
+    .right-user-exit{
+        margin-left: auto;
+        margin-right:30px;
+    }
+
+    .user{
+        color:white;
+    }
+
+    .exit-text {
+        color:yellow;
+    }
+
+    .system-title{
+        margin:30px;
+        font-size:30px;
+        color:white;
+    }
+
+</style>
+<div id="top">
+    <div class="system-title">
+        人力资源管理系统
+    </div>
+    <div class="right-user-exit">
+        <span class="user">
+            当前登录用户:{{ uName }}
+        </span>
+        <span class="exit-text">
+            <span v-on:click="exit()">退出</span>
+        </span>
+    </div>
+</div>
+<script>
+    new Vue({
+        el:'#top',
+        data: {
+            uName:'',
+        },
+        methods: {
+            getUName() {
+                this.uName = JSON.parse(sessionStorage.getItem("LoginUser")).uName;
+            },
+            exit(){
+                location.href = "/Users/Login";
+            }
+        }, 
+        mounted() {
+            this.getUName();
+        }
+
+    })
+</script>

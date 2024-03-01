@@ -1,0 +1,179 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+</head>
+
+<body>
+	<div id="Salarystandard_check_list">
+		
+			<table width="100%">
+				<tr>
+					<td>
+						<font color="black">您正在做的业务是:人力资源管理--薪酬发放管理--薪资发放</font>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						当前等待复核的薪酬标准总数:
+						1
+						例
+					</td>
+				</tr>
+			</table>
+			
+
+			
+
+		
+		<el-table :data="table" v-show="tableVisible"
+				  style="width: 100%">
+			<el-table-column prop="sgrId"
+							 label="序号"
+							 width="180">
+			</el-table-column>
+			<el-table-column prop="firstKindName"
+							 label="I级机构"
+							 width="180">
+			</el-table-column>
+			<el-table-column prop="salaryStandardSum"
+							 label="基本薪酬总额"
+							 width="180">
+			</el-table-column>
+
+			<el-table-column label="登记" width="180">
+				<template slot-scope="scope">
+					<el-button v-if="scope.row.register" type="success" plain disabled>已登记</el-button>
+					<el-button type="danger" v-else v-on:click="editItem(scope.row)">
+						登记
+					</el-button>
+				</template>
+			</el-table-column>
+		</el-table>
+		<el-table :data="table" v-show="tableVisible2"
+				  style="width: 100%">
+			<el-table-column prop="sgrId"
+							 label="序号"
+							 width="180">
+			</el-table-column>
+			<el-table-column prop="secondKindName"
+							 label="II级机构"
+							 width="180">
+			</el-table-column>
+			<el-table-column prop="salaryStandardSum"
+							 label="基本薪酬总额"
+							 width="180">
+			</el-table-column>
+
+			<el-table-column label="登记" width="180">
+				<template slot-scope="scope">
+					<el-button v-if="scope.row.register" type="success" plain disabled>已登记</el-button>
+					<el-button type="danger" v-else v-on:click="editItem(scope.row)">
+						登记
+					</el-button>
+				</template>
+			</el-table-column>
+		</el-table>
+		<el-table :data="table" v-show="tableVisible3"
+				  style="width: 100%">
+			<el-table-column prop="sgrId"
+							 label="序号"
+							 width="180">
+			</el-table-column>
+			<el-table-column prop="thirdKindName"
+							 label="III级机构"
+							 width="180">
+			</el-table-column>
+			<el-table-column prop="salaryStandardSum"
+							 label="基本薪酬总额"
+							 width="180">
+			</el-table-column>
+
+			<el-table-column label="登记" width="180">
+				<template slot-scope="scope">
+					<el-button v-if="scope.row.register" type="success" plain disabled>已登记</el-button>
+					<el-button type="danger" v-else v-on:click="editItem(scope.row)">
+						登记
+					</el-button>
+				</template>
+			</el-table-column>
+		</el-table>
+			<script src="~/js/updatego.js"></script>
+	
+	</div>
+	<script>
+		
+		new Vue({
+			el: '#Salarystandard_check_list',
+			data: {
+				id:'@ViewData["id"]',
+				table: [],
+				tableVisible: false,
+				tableVisible2: false,
+				tableVisible3: false
+			},
+			methods: {
+				handleSubmit() {
+				    
+					if (this.id == 'first_kind_name') {
+						this.tableVisible = true;
+					}
+					if (this.id == 'second_kind_name') {
+						this.tableVisible2 = true;
+					}
+					if (this.id == 'third_kind_name') {
+						this.tableVisible3 = true;
+					}
+					const selectedValue3 = this.id;
+
+					// 发送异步请求到服务器
+					axios.get(`/SSDs/SalaryPaymentInsertQuery2?selectedValue3=${selectedValue3}`)
+						.then(response => {
+							// 请求成功，更新页面数据
+							this.table = response.data;
+							console.log(response.data);
+						})
+						.catch(error => {
+							// 请求失败，处理错误
+							console.error(error);
+						});
+				},
+				editItem (row) {
+
+					const Id = row.salaryGrantId;
+					const Idd = row.salaryStandardId;
+					console.log(row);
+					var url = "@Url.Action("Registerupda","SSDs")?id=" + Id + "&idd=" + Idd;
+
+				
+						$.ajax({
+							url: url,
+							type: "GET",
+							success: function (result) {
+								$("#main-content").html(result);
+							},
+							error: function (xhr, status, error) {
+								console.log(error);
+							}
+						});
+					// this.updateGo(url);
+				},
+			}
+			, mounted: function () {
+				this.handleSubmit();
+			}
+		})
+	</script>
+</body>
+</html>

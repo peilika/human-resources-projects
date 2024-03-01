@@ -1,0 +1,143 @@
+﻿@using EFCore.Models;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	int totalCount = ViewData["CheckCount"] as int? ?? 0; // 获取总记录数
+	int pageSize = 5; // 每页条目数
+	int totalPages = (int)Math.Ceiling((double)totalCount / pageSize); // 计算总页数
+	var lists = ViewData["Page"] as FenYePage;
+	int pageIndex = lists.PageIndex;
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<style>
+		#fenye {
+			text-decoration: none;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+		<table width="100%">
+			<tr>
+				<td>
+					<font color="black">您正在做的业务是：人力资源--人力资源档案管理--人力资源档案登记复核 </font>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					当前等待复核的人力资源档案总数：
+					@ViewData["CheckCount"]
+					例
+				</td>
+			</tr>
+		</table>
+		<table width="100%" border="1" cellpadding=5 cellspacing=1
+			   bordercolorlight=#848284 bordercolordark=#eeeeee
+			   class="TABLE_STYLE1">
+			<tr class="TR_STYLE1">
+				<td width="14%" class="TD_STYLE1">
+					档案编号
+				</td>
+				<td width="8%" class="TD_STYLE1">
+					姓名
+				</td>
+				<td width="8%" class="TD_STYLE1">
+					性别
+				</td>
+				<td width="10%" class="TD_STYLE1">
+					I级机构
+				</td>
+				<td width="10%" class="TD_STYLE1">
+					II级机构
+				</td>
+				<td width="10%" class="TD_STYLE1">
+					III级机构
+				</td>
+				<td width="10%" class="TD_STYLE1">
+					职称
+				</td>
+				<td width="10%" class="TD_STYLE1">
+					复核
+				</td>
+			</tr>
+
+			@foreach (var list in ViewData["CheckList"] as List<HFDs>)
+			{
+				<tr>
+					<td class="TD_STYLE2">
+						@list.HumanId
+					</td>
+					<td class="TD_STYLE2">
+						@list.HumanName
+					</td>
+					<td class="TD_STYLE2">
+						@list.HumanSex
+					</td>
+					<td class="TD_STYLE2">
+						@list.FirstKindName
+					</td>
+					<td class="TD_STYLE2">
+						@list.SecondKindName
+					</td>
+					<td class="TD_STYLE2">
+						@list.ThirdKindName
+					</td>
+					<td class="TD_STYLE2">
+						@list.HumanProDesignation
+					</td>
+					<td class="TD_STYLE2">
+						@if(@list.CheckStatus==1){
+							<input type="button" value="已复核" disabled>
+						}else{
+							<input type="button" value="复核" style="color: blue" class="updatePage" data-url="/HumanResources/Query_list_information?id=@list.HfdId">
+						}
+					</td>
+				</tr>
+			}
+
+
+		</table>
+		<p style="text-align:center;">
+			当前为第
+			@pageIndex
+			页
+		</p>
+		<p style="text-align:center;">
+
+			<a class="updatePage" data-url="/HumanResources/Check_list?PageIndex=1&PageSize=5" style="margin-right: 10px;" id="fenye">首页</a>
+			@if (pageIndex > 1)
+			{
+				string previousUrl = $"/HumanResources/Check_list?PageIndex={pageIndex - 1}&PageSize=5";
+				<a class="updatePage" data-url="@previousUrl" style="margin-right: 10px;" id="fenye">上一页</a>
+			}
+			@if (totalPages > 0)
+			{
+				for (int i = 1; i <= totalPages; i++)
+				{
+					string url = $"/HumanResources/Check_list?PageIndex={i}&PageSize=5";
+					if (i == pageIndex)
+					{
+
+						<a class="updatePage" data-url="@url" style="margin-right: 10px;color:red" id="fenye">@i</a>
+					}
+					else
+					{
+						<a class="updatePage" data-url="@url" style="margin-right: 10px;" id="fenye">@i</a>
+					}
+
+				}
+			}
+			@if (pageIndex < totalPages)
+			{
+				string nextUrl = $"/HumanResources/Check_list?PageIndex={pageIndex + 1}&PageSize=5";
+				<a class="updatePage" data-url="@nextUrl" style="margin-right: 10px;" id="fenye">下一页</a>
+			}
+			<a class="updatePage" data-url="/HumanResources/Check_list?PageIndex=@totalPages&PageSize=5" id="fenye">尾页</a>
+
+   <script src="~/js/updatego.js"></script>
+</body>
+</html>

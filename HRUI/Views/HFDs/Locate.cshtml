@@ -1,0 +1,136 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div id="Locate">
+	<form method="post" action="list.html">
+		<input type="hidden" name="page.startPage" value="0">
+		<table width="100%">
+			<tr>
+				<td>
+					<font color="black">您正在做的业务是：人力资源--调动管理--调动查询 </font>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">
+					<input type="button" value="查询" v-on:click="updatePage()"
+						   class="btn btn-primary">
+				</td>
+			</tr>
+		</table>
+		<table width="100%" border="1" cellpadding=0 cellspacing=1
+			   bordercolorlight=#848284 bordercolordark=#eeeeee
+			   class="table">
+			<tr class="TR_STYLE1">
+				<td width="16%" >
+					请选择员工所在机构
+				</td>
+				<td width="84%" >
+					<el-cascader v-model="selectedJG"
+								 :options="jGList"
+								 :props="{ value:'kindId', label:'kindName',expandTrigger: 'hover' }"
+					v-on:change="jgChange"></el-cascader>
+				</td>
+			</tr>
+
+			<tr>
+				<td >
+					请选择职位分类
+				</td>
+				<td width="84%" >
+					<el-cascader v-model="selectedCmk"
+								 :options="cmks"
+								 :props="{ value:'majorKindId', label:'majorKindName',expandTrigger: 'hover' }"
+					v-on:change="zwChange"></el-cascader>
+				</td>
+			</tr>
+			<tr>
+				<td >
+					请输入建档时间
+				</td>
+				<td width="84%" >
+					<el-date-picker v-model="dateTimeStar"
+									type="date"
+									placeholder="选择日期">
+					</el-date-picker>
+					至
+					<el-date-picker v-model="dateTimeEnd"
+									type="date"
+									placeholder="选择日期">
+					</el-date-picker>
+				</td>
+			</tr>
+		</table>
+	</form>
+</div>
+<script>
+	new Vue({
+		el: '#Locate',
+		data: {
+			selectedJG:[],
+			jGList:[],
+			selectedCmk: [],
+			cmks: [],
+			
+			JsonSelectedCmk: '',
+			JsonSelectedJG:'',
+			dateTimeStar:'',
+			dateTimeEnd:'',
+		}, 
+		methods: {
+			/**
+			 * 机构改变事件
+			 */
+			jgChange(val) {
+				this.JsonSelectedJG = JSON.stringify(val)
+			},
+			/**
+			 * 职位改变事件
+			 */
+			zwChange(val) {
+				this.JsonSelectedCmk = JSON.stringify(val)
+			},
+			/**
+			 * 获取机构级联
+			 */
+			getList() {
+				axios.get("@Url.Action("GetCFFKsAndCFSKs","HumanResources")")
+					.then(res => {
+						console.log("机构级联", res.data)
+						this.jGList = res.data;
+					})
+			},
+			/**
+			 * 获取职位级联
+			 */
+			getCMKs() {
+				axios.get("@Url.Action("GetCMKs","HumanResources")")
+					.then(res => {
+						console.log("职位级联", res.data)
+						this.cmks = res.data;
+					})
+			},
+			/**
+			 * 向后端请求复核条件的数据页面
+			 */
+			updatePage() {
+				var url = "@Url.Action("ListPage","HFDs")";
+				axios.post(url, 
+					{
+						JsonSelectedCmk: this.JsonSelectedCmk,
+						JsonSelectedJG: this.JsonSelectedJG,
+						DateTimeStar: this.dateTimeStar,
+						DateTimeEnd: this.dateTimeEnd
+					})
+				.then(res => {
+					$("#main-content").html(res.data);
+				})
+			},
+		}, 
+		mounted() {
+			this.getList();
+			this.getCMKs();
+		}
+	})
+</script>

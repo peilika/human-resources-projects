@@ -1,0 +1,35 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	var tj = ViewData["tj"] as string;
+}
+<table width="100%">
+	<tr>
+		<td colspan="2">
+
+			<font color="black">您正在做的业务是:人力资源管理--薪酬标准管理--薪酬标准登记变更 </font>
+		</td>
+	</tr>
+	<tr>
+		<td width="49%"> 提交成功，需要复核！</td>
+		<td width="51%" align="right">
+			<input type="button" class="btn btn-primary" value="返回" onclick="updatePage()" />
+		</td>
+	</tr>
+</table>
+<script>
+	//用于跳转页面
+	function updatePage() {
+		$.ajax({
+			url: '/SSs/BackSalarystandard_query_list?tj=@tj',
+			type: "GET",
+			success: function (result) {
+				$("#main-content").html(result);
+			},
+			error: function (xhr, status, error) {
+				console.log(error);
+			}
+		});
+	}
+</script>

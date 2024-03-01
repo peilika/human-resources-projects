@@ -1,0 +1,333 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HRUI
+build_property.RootNamespace = HRUI
+build_property.ProjectDir = E:\.Net192\HRTest\HRUI\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\.Net192\HRTest\HRUI
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/.Net192/HRTest/HRUI/Views/CFFKs/First_kind.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0ZGS3NcRmlyc3Rfa2luZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/CFFKs/First_kind_change.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0ZGS3NcRmlyc3Rfa2luZF9jaGFuZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/CFFKs/First_kind_change_success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0ZGS3NcRmlyc3Rfa2luZF9jaGFuZ2Vfc3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/CFFKs/First_kind_register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0ZGS3NcRmlyc3Rfa2luZF9yZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/CFFKs/First_kind_register_success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0ZGS3NcRmlyc3Rfa2luZF9yZWdpc3Rlcl9zdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/CFSKs/Second_kind.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0ZTS3NcU2Vjb25kX2tpbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/CFSKs/Second_kind_change.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0ZTS3NcU2Vjb25kX2tpbmRfY2hhbmdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/CFSKs/Second_kind_change_success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0ZTS3NcU2Vjb25kX2tpbmRfY2hhbmdlX3N1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/CFSKs/Second_kind_register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0ZTS3NcU2Vjb25kX2tpbmRfcmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/CFSKs/Second_kind_register_success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0ZTS3NcU2Vjb25kX2tpbmRfcmVnaXN0ZXJfc3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/CFTKs/Third_kind.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0ZUS3NcVGhpcmRfa2luZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/CFTKs/Third_kind_change.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0ZUS3NcVGhpcmRfa2luZF9jaGFuZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/CFTKs/Third_kind_change_success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0ZUS3NcVGhpcmRfa2luZF9jaGFuZ2Vfc3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/CFTKs/Third_kind_register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0ZUS3NcVGhpcmRfa2luZF9yZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/CFTKs/Third_kind_register_success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0ZUS3NcVGhpcmRfa2luZF9yZWdpc3Rlcl9zdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Clients/Major.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xNYWpvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Clients/Major_add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xNYWpvcl9hZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Clients/Major_kind.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xNYWpvcl9raW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Clients/Major_kind_add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xNYWpvcl9raW5kX2FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Clients/Profession_design.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xQcm9mZXNzaW9uX2Rlc2lnbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/CPCs/Public_char.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1BDc1xQdWJsaWNfY2hhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/CPCs/Public_char_Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1BDc1xQdWJsaWNfY2hhcl9BZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Employs/Lists.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95c1xMaXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HFDs/Check.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSEZEc1xDaGVjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HFDs/Check_list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSEZEc1xDaGVja19saXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HFDs/Check_success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSEZEc1xDaGVja19zdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HFDs/ListPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSEZEc1xMaXN0UGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HFDs/Locate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSEZEc1xMb2NhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HFDs/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSEZEc1xSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HFDs/Register_list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSEZEc1xSZWdpc3Rlcl9saXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HFDs/Register_locate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSEZEc1xSZWdpc3Rlcl9sb2NhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HFDs/Register_success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSEZEc1xSZWdpc3Rlcl9zdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HumanResources/Change_list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVtYW5SZXNvdXJjZXNcQ2hhbmdlX2xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HumanResources/Change_list_information.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVtYW5SZXNvdXJjZXNcQ2hhbmdlX2xpc3RfaW5mb3JtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HumanResources/Check_list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVtYW5SZXNvdXJjZXNcQ2hlY2tfbGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HumanResources/Delete_forever_list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVtYW5SZXNvdXJjZXNcRGVsZXRlX2ZvcmV2ZXJfbGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HumanResources/Delete_list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVtYW5SZXNvdXJjZXNcRGVsZXRlX2xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HumanResources/Human_Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVtYW5SZXNvdXJjZXNcSHVtYW5fUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HumanResources/Query_list_information.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVtYW5SZXNvdXJjZXNcUXVlcnlfbGlzdF9pbmZvcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HumanResources/Query_locate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVtYW5SZXNvdXJjZXNcUXVlcnlfbG9jYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/HumanResources/Recovery_list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVtYW5SZXNvdXJjZXNcUmVjb3ZlcnlfbGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Powers/Right_Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG93ZXJzXFJpZ2h0X0FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Powers/Right_List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG93ZXJzXFJpZ2h0X0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Powers/Right_list_information.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG93ZXJzXFJpZ2h0X2xpc3RfaW5mb3JtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Powers/User_Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG93ZXJzXFVzZXJfQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Powers/User_Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG93ZXJzXFVzZXJfRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Powers/User_List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG93ZXJzXFVzZXJfTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Primarys/Primary_key.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbWFyeXNcUHJpbWFyeV9rZXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Primarys/Primary_key_Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbWFyeXNcUHJpbWFyeV9rZXlfUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Salarys/Salary_item.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJ5c1xTYWxhcnlfaXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Salarys/Salary_item_Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJ5c1xTYWxhcnlfaXRlbV9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Shared/Left.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExlZnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Shared/Top.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRvcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSDs/Check.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NEc1xDaGVjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSDs/Check_list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NEc1xDaGVja19saXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSDs/query_click.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NEc1xxdWVyeV9jbGljay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSDs/query_listpro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NEc1xxdWVyeV9saXN0cHJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSDs/query_locate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NEc1xxdWVyeV9sb2NhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSDs/Registerupda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NEc1xSZWdpc3RlcnVwZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSDs/Register_list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NEc1xSZWdpc3Rlcl9saXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSDs/Register_locate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NEc1xSZWdpc3Rlcl9sb2NhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSs/Salarystandard_change.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NzXFNhbGFyeXN0YW5kYXJkX2NoYW5nZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSs/Salarystandard_change_success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NzXFNhbGFyeXN0YW5kYXJkX2NoYW5nZV9zdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSs/Salarystandard_check.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NzXFNhbGFyeXN0YW5kYXJkX2NoZWNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSs/Salarystandard_check_list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NzXFNhbGFyeXN0YW5kYXJkX2NoZWNrX2xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSs/Salarystandard_check_success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NzXFNhbGFyeXN0YW5kYXJkX2NoZWNrX3N1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSs/Salarystandard_query.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NzXFNhbGFyeXN0YW5kYXJkX3F1ZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSs/Salarystandard_query_list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NzXFNhbGFyeXN0YW5kYXJkX3F1ZXJ5X2xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSs/Salarystandard_query_locate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NzXFNhbGFyeXN0YW5kYXJkX3F1ZXJ5X2xvY2F0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSs/Salarystandard_register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NzXFNhbGFyeXN0YW5kYXJkX3JlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/SSs/Salarystandard_register_success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1NzXFNhbGFyeXN0YW5kYXJkX3JlZ2lzdGVyX3N1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Users/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/.Net192/HRTest/HRUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-m4bpc6hk5o

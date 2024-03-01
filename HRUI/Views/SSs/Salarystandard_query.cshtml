@@ -1,0 +1,147 @@
+﻿@using EFCore.Models;
+@using HRUI.Models;
+@model SSs;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	var list = ViewData["ssds"] as string;
+}
+<div id="Salarystandard_query">
+	<form id="submitForm">
+		<table width="100%">
+			<tr>
+				<td>
+					<font color="black">您正在做的业务是:人力资源管理--薪酬标准管理--薪酬标准登记变更</font>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div align="right">
+						<input type="button" value="返回" class="btn btn-info"
+							   v-on:click="updatePage(`/SSs/BackSalarystandard_query_list?tj=`+tj)">
+					</div>
+				</td>
+			</tr>
+		</table>
+		<table width="100%" border="1" cellpadding=0 cellspacing=1
+			   bordercolorlight=#848284 bordercolordark=#eeeeee
+			   class="table">
+			<tr>
+				<td width="12%" class="TD_STYLE1">
+					薪酬编号
+				</td>
+				<td width="15%" class="TD_STYLE2">
+					<input type="text" name="StandardId" readonly value="@Model.StandardId" class="form-control">
+				</td>
+				<td width="12%" class="TD_STYLE1">
+					薪酬标准名称
+				</td>
+				<td width="11%" class="TD_STYLE2">
+					<input type="text" name="StandardName" value="@Model.StandardName" readonly class="form-control">
+				</td>
+				<td width="11%" class="TD_STYLE1">
+					薪酬总额
+				</td>
+				<td width="17%" class="TD_STYLE2">
+					<input type="text" name="SalarySum" value="@Model.SalarySum"  class="form-control" readonly>
+				</td>
+				<td width="12%" class="TD_STYLE1">
+					&nbsp;
+				</td>
+				<td width="10%" class="TD_STYLE2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td class="TD_STYLE1">
+					制定人
+				</td>
+				<td class="TD_STYLE2">
+					<input type="text" name="Designer" readonly value="@Model.Designer" class="form-control">
+				</td>
+				<td class="TD_STYLE1">
+					变更人
+				</td>
+				<td class="TD_STYLE2">
+					<input type="text" value="@Model.Changer" readonly class="form-control">
+				</td>
+				<td class="TD_STYLE1">
+					变更时间
+				</td>
+				<td class="TD_STYLE2">
+					<input type="text" readonly value="@Model.ChangeTime" class="form-control">
+				</td>
+				<td class="TD_STYLE1">
+					&nbsp;
+				</td>
+				<td class="TD_STYLE2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td class="TD_STYLE1">
+					备注
+				</td>
+				<td colspan="7" class="TD_STYLE2">
+					<textarea name="Remark" rows="4" class="form-control" readonly >@Model.Remark</textarea>
+				</td>
+			</tr>
+			<!-- 薪酬设置选项 -->
+			<tr>
+				<td class="TD_STYLE1">
+					序号
+				</td>
+				<td colspan="3" class="TD_STYLE1">
+					薪酬项目名称
+				</td>
+				<td colspan="4" class="TD_STYLE1">
+					金额
+				</td>
+			</tr>
+			<tr class="TD_STYLE2" v-for="(item, index) in slist">
+				<td align="center">
+					{{ item.ItemId }}
+				</td>
+				<td colspan="3">
+					{{ item.ItemName }}
+				</td>
+				<td>
+					<input type="text" v-model="item.Salary" v-on:blur="changeSalay()" readonly class="form-control">
+				</td>
+				<td colspan="3">
+					&nbsp;
+				</td>
+			</tr>
+		</table>
+	</form>
+</div>
+<script>
+	new Vue({
+		el: '#Salarystandard_query',
+		data: {
+			slist: [],	// 薪酬设置
+			tj: '@ViewData["tj"] as string',
+		},
+		methods: {
+			/**
+			* 跳转页面
+			*/
+			updatePage(url) {
+				$.ajax({
+					url: url,
+					type: "GET",
+					success: function (result) {
+						$("#main-content").html(result);
+					},
+					error: function (xhr, status, error) {
+						console.log(error);
+					}
+				});
+			},
+		},
+		mounted() {
+			this.slist = JSON.parse('@list'.replace(/&quot;/g, '"'));
+		}
+	});
+</script>

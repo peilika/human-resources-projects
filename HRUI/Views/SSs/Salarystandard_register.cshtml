@@ -1,0 +1,260 @@
+﻿@using EFCore.Models;
+@model SSs;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@* 薪酬标准登记页面 *@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+	<div id="Salarystandard_register">
+		<form id="submitForm">
+			<table width="100%">
+				<tr>
+					<td>
+						<font color="black">
+							您正在做的业务是：人力资源--薪酬标准管理--薪酬标准登记
+						</font>
+					</td>
+				</tr>
+				<tr>
+					<td align="right">
+						<input type="button" value="提 交" id="submitButton" v-on:click="submitForm()" class="btn btn-primary">
+					</td>
+				</tr>
+			</table>
+			<table id="stable" width="100%" border="1" cellpadding=0 cellspacing=1
+				   bordercolorlight=#848284 bordercolordark=#eeeeee
+				   class="table">
+				<tr>
+					@* 自动生成 *@
+					<td width="74" class="TD_STYLE1">
+						薪酬标准编号
+					</td>
+					<td width="168" class="TD_STYLE2">
+						<input type="text" value="@Model.StandardId" readonly="readonly" name="StandardId" id="StandardName" class="form-control" />
+					</td>
+					<td width="83" class="TD_STYLE1">
+						薪酬标准名称
+					</td>
+					<td width="171" class="TD_STYLE2">
+						<input type="text" v-model="StandardName" name="StandardName" id="StandardName" class="form-control">
+					</td>
+					<td width="170" class="TD_STYLE1">
+						薪酬总额
+					</td>
+					<td width="138" class="TD_STYLE2">
+						<input type="text" :value="SalarySum" name="SalarySum" id="SalarySum" readonly class="form-control" />
+					</td>
+					<td width="103" class="TD_STYLE1">
+						&nbsp;
+					</td>
+					<td width="95" height="26" class="TD_STYLE2">
+						&nbsp;                                        
+					</td>
+				</tr>
+				<tr>
+					<td class="TD_STYLE1">
+						制定人
+					</td>
+					<td class="TD_STYLE2">
+						<select name="Designer" class="form-control">
+							@foreach (var a in ViewData["users"] as List<Users>)
+							{
+								<option value="@a.UName">@a.UName</option>
+							}
+						</select>
+					</td>
+					<td class="TD_STYLE1">
+						登记人
+					</td>
+                    <td class="TD_STYLE2">
+						<input type="hidden" :value="Register" name="Register" />
+						<input type="text"  :value="RegisterName" readonly="readonly" class="form-control">
+					</td>
+					<td class="TD_STYLE1">
+						登记时间
+					</td>
+					<td class="TD_STYLE2">
+						<input type="text" v-model="RegistTime" id="Tdate" name="RegistTime" readonly="readonly" class="form-control">
+					</td>
+					<td class="TD_STYLE1">
+						&nbsp;
+					</td>
+					<td class="TD_STYLE2">
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td class="TD_STYLE1">
+						备注
+					</td>
+					<td colspan="7" class="TD_STYLE2">
+						<textarea name="Remark" value="Remark" rows="4" class="form-control"></textarea>
+					</td>
+				</tr>
+				
+				<!-- 设置可供用户选择的复选框 -->
+				<tbody id="fxks">
+					<tr>@foreach (var a in ViewData["cpcs"] as List<CPCs>)
+							{
+						<td>
+							<input type="checkbox" name="PbcId" v-model="selectedOptions" v-on:click="updateSelected()" value="@a.PbcId" class="form-check-input" />
+                        </td>
+						<td><span> @a.AttributeName </span></td>
+							}
+					</tr>
+					<tr>
+						<td colspan="7" align="center"><input type="button" value="确认选择" v-on:click="isChoose()" id="isChoose" class="btn btn-primary" /></td>
+					</tr>
+				</tbody>
+
+				@if (null!=null)
+					{
+					<tr class="TD_STYLE1">
+						<td align="center">
+							序号
+						</td>
+						<td colspan="3">
+							薪酬项目名称
+						</td>
+						<td>
+							金额
+						</td>
+						<td colspan="3">
+							&nbsp;
+						</td>
+					</tr>
+				}
+				<!-- 选中的每一项(根据复选框循环展示) -->
+				<input type="hidden" v-model="selOptionsAllData" name="SelOptionsAllData" />
+				<tbody v-for="item in selectedOptionsAll">
+					<tr class="TD_STYLE2">
+						<td align="center">
+							{{ item.pbcId }}
+							<input type="hidden" name="ItemId" :value="item.pbcId">
+						</td>
+						<td colspan="3">
+							{{ item.attributeName }}
+							<input type="hidden" name="ItemName" :value="item.attributeName">
+						</td>
+						<td>
+							<input type="text" v-model="item.salary" name="Salary" class="form-control" v-on:blur="countSum()">
+						</td>
+						<td colspan="3">
+							&nbsp;
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<p>
+				&nbsp;
+			</p>
+        </form> 
+	</div>
+	<script type="text/javascript">
+		var app = new Vue({
+			el: "#Salarystandard_register",
+			name: "Salarystandard_register",
+			data: {
+				// SSs 表所添加的字段
+				StandardName: "",  // 薪酬标准单名称
+				SalarySum: "",  // 薪酬总额
+				Designer:"",  // 指定人名称
+				Register: JSON.parse(sessionStorage.getItem("LoginUser")).uId,// 登记人编号
+				RegisterName: JSON.parse(sessionStorage.getItem("LoginUser")).uName,  // 登记人
+				RegistTime:"",  // 登记时间
+				Remark:"",  // 备注
+				// SSDs 表所添加的字段
+				// StandardId 薪酬标准单编号
+				// StandardName 薪酬标准单名称
+				ItemId: 0,  // 薪酬项目序号
+				ItemName: "",  // 薪酬项目名称
+				Salary:0,  // 薪酬金额
+				selectedOptions: [],	// 选中的复选框
+				selectedOptionsAll:[],	// 选中的复选框的数组
+				selOptionsAllData:"",	// 所有选中的复选框的信息和值
+			},
+			methods: {
+				updateSelected: function (event) {
+					// 处理复选框状态变化
+				}, 
+				countSum(){
+					this.SalarySum = this.selectedOptionsAll.reduce((sum, item) => sum + parseFloat(item.salary), 0);
+					this.selOptionsAllData = JSON.stringify(this.selectedOptionsAll)
+					console.log(this.selOptionsAllData);
+				},
+				isChoose() {
+					const params = new URLSearchParams();
+					params.append('data', this.selectedOptions.join(','));
+					// 确认选择
+					console.log(JSON.stringify(this.selectedOptions))
+					// 进行axios异步请求
+					axios.get("@Url.Action("GetBySelectedOptions","CPCs")?" + params)
+						.then(res => {
+							console.log(res.data)
+							this.selectedOptionsAll = res.data;
+						})
+				},
+				submitForm() {
+					var url = '@Url.Action("Salarystandard_register_success","SSs")';
+						$.post(url, $("#submitForm").serialize(),
+							function (data) {
+								console.log("updateGo进行输出打印：", data);
+								$("#main-content").html(data);
+							}
+						)
+				},
+				time: function() {
+					var d = new Date();
+					var y = d.getFullYear();
+					var moth = d.getMonth() + 1;
+					var date = d.getDate();
+					var h = d.getHours();
+					var m = d.getMinutes();
+					var s = d.getSeconds();
+					var hh = 20 - 1 - h;
+					var mm = 60 - 1 - m;
+					var ss = 60 - s;
+					if (hh > 0) {
+						mm = mm + 60 * hh;
+					}
+					if (moth < 10) {
+						moth = "0" + moth;
+					}
+					if (date < 10) {
+						date = "0" + date;
+					}
+					if (h < 10) {
+						h = "0" + h;
+					}
+					if (m < 10) {
+						m = "0" + m;
+					}
+					if (s < 10) {
+						s = "0" + s;
+					}
+					if (mm < 10) {
+						mm = "0" + mm;
+					}
+					if (ss < 10) {
+						ss = "0" + ss;
+					}
+					this.RegistTime = y + "-" + moth + "-" + date + " " + h + ":" + m + ":" + s;
+				},
+			},
+			mounted(){
+				window.setInterval(() => {
+					this.time();
+				}, 1000);
+			}
+		});
+    </script>
+</body>
+</html>
+

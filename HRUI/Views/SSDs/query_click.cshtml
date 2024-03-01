@@ -1,0 +1,111 @@
+﻿@using HREF.Model;
+
+@model SalaryPayViewModel
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+    <div id="Salarystandard_check_list">
+        <template>
+            <el-table :data="table"
+                      border
+                      style="width: 100%">
+                <el-table-column fixed
+                                 label="薪资编号"
+                                 width="150">
+                    <template slot-scope="scope">
+                        <el-link type="primary" v-on:click="handleClick(scope.row)">{{ scope.row.salaryGrantId }}</el-link>
+                    </template>
+                </el-table-column>
+                <el-table-column prop="firstKindName"
+                                 label="I级机构"
+                                 width="120">
+                </el-table-column>
+                <el-table-column prop="secondKindName"
+                                 label="II级机构"
+                                 width="120">
+                </el-table-column>
+                <el-table-column prop="thirdKindName"
+                                 label="III级机构"
+                                 width="120">
+                </el-table-column>
+                <el-table-column prop="humanAmount"
+                                 label="人数"
+                                 width="120">
+                </el-table-column>
+                <el-table-column prop="salaryStandardSum"
+                                 label="基本薪资总额"
+                                 width="120">
+                </el-table-column>
+                
+            </el-table>
+        </template>
+
+        
+
+
+    </div>
+    <script>
+        new Vue({
+            el: '#Salarystandard_check_list',
+            data: {
+              
+                id: '@ViewData["id"]',
+                id2: '@ViewData["id2"]',
+                id3: '@ViewData["id3"]',
+                id5: '@ViewData["id4"]',
+                table: [],
+               
+            },
+            methods: {
+                fill() 
+                {
+                    axios.get(`/SSDs/queylist?id=${this.id}&a=${this.id2}&b=${this.id3}&c=${this.id5}`)
+                        .then(response => {
+                            // 请求成功，更新页面数据
+                            this.table = response.data;
+                          
+                        })
+                        .catch(error => {
+                            // 请求失败，处理错误
+                            console.error(error);
+                        });
+                
+                }
+                ,
+                handleClick(row) {
+                    const salaryGrantId = row.salaryGrantId;
+                    const salaryStandardId = row.salaryStandardId;
+                    // 在此处处理点击事件，例如弹出对话框、跳转页面等操作
+                    const url = "@Url.Action("query_listpro", "SSDs")?a=" + encodeURIComponent(salaryGrantId) + "&b=" + encodeURIComponent(salaryStandardId);
+                    $.ajax({
+                        url: url,
+                        type: "GET",
+                        success: function (result) {
+                            $("#main-content").html(result);
+                        },
+                        error: function (xhr, status, error) {
+                            console.log(error);
+                        }
+                    });
+
+
+
+                }
+
+            },
+
+
+
+            mounted() {
+          
+                this.fill();
+            }
+        })
+    </script>
+</body>
+</html>

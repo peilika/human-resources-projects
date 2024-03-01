@@ -1,0 +1,35 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form name="humanfileForm" method="post" action="">
+	<table width="100%">
+		<tr>
+			<td>
+				<font color="#0000CC">您正在做的业务是:人力资源--调动管理--调动登记</font>
+			</td>
+		</tr>
+		<tr>
+			<td width="49%"> 登记成功,待复核！</td>
+			<td width="51%" align="right">
+				<input type="button" class="btn btn-info" onclick="updatePage()" value="返回">
+			</td>
+
+		</tr>
+	</table>
+	<script>
+		function updatePage(){
+			$.ajax({
+				url: '@Url.Action("Register_locate","HFDs")',
+				type: "GET",
+				success: function (result) {
+					$("#main-content").html(result);
+				},
+				error: function (xhr, status, error) {
+					console.log(error);
+				}
+			});
+		}
+	</script>
+</form>

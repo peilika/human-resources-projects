@@ -1,0 +1,101 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+</head>
+
+<body>
+	<div id="Salarystandard_check_list">
+	<form method="post" action="query_list.html">
+		<input type="hidden" name="page.startPage" value="0">
+		<table width="100%">
+			<tr>
+				<td>
+					<font color="black">您正在做的业务是:人力资源管理--薪酬发放管理--薪酬发放查询</font>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div align="right">
+							<el-button type="primary" icon="el-icon-search" v-on:click="fill()">搜索</el-button>
+					</div>
+				</td>
+			</tr>
+		</table>
+			<el-form ref="form" :model="form" label-width="80px">
+				<el-form-item label="薪资单号">
+					<el-input v-model="form.name"></el-input>
+				</el-form-item>
+				<el-form-item label="关键字">
+					<el-input v-model="form.region"></el-input>
+				</el-form-item>
+
+				<el-form-item label="时间">
+					<div class="block">
+						<span class="demonstration">默认</span>
+						<el-date-picker v-model="value1"
+										type="monthrange"
+										range-separator=""
+										start-placeholder="开始月份"
+										end-placeholder="结束月份">
+						</el-date-picker>
+					</div>
+				</el-form-item>
+				
+			</el-form>
+	</form>
+	</div>
+	<script>
+
+		new Vue({
+			el: '#Salarystandard_check_list',
+			data: {
+				value1:'',
+				form: {
+					name: '',
+					region: '',
+					date1: '2012-12-12',
+					date2: '2013-13-13',
+					
+				}
+			
+			},
+			methods: {
+
+				onSubmit() {
+					console.log('submit!');
+				},
+				fill() {
+					const a = this.form.name;
+					const b = this.form.region;
+					// const c = new Date(this.form.date1).toISOString().slice(0, 10);
+					// const d = new Date(this.form.date2).toISOString().slice(0, 10);
+					const c = this.form.date1;
+					const d = this.form.date2;
+					var url = "@Url.Action("query_click", "SSDs")?a=" + encodeURIComponent(a) + "&b=" + encodeURIComponent(b) + "&c=" + encodeURIComponent(c) + "&d=" + encodeURIComponent(d);
+					$.ajax({
+						url: url,
+						type: "GET",
+						success: function (result) {
+							$("#main-content").html(result);
+						},
+						error: function (xhr, status, error) {
+							console.log(error);
+						}
+					});
+				}
+			},
+			mounted() {
+			
+			}
+		})
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,842 @@
+﻿@using EFCore.Models;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	var QueryLocate = ViewData["list"] as HFDs;
+}
+<!DOCTYPE html public "-//w3c//dtd html 4.01 transitional//en"
+		  "http://www.w3.org/tr/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<style>
+		select {
+			width: 185px;
+		}
+
+		.avatar-uploader .el-upload {
+			border: 1px dashed #d9d9d9;
+			border-radius: 6px;
+			cursor: pointer;
+			position: relative;
+			overflow: hidden;
+		}
+
+			.avatar-uploader .el-upload:hover {
+				border-color: #409EFF;
+			}
+
+		.avatar-uploader-icon {
+			font-size: 28px;
+			color: #8c939d;
+			width: 178px;
+			height: 178px;
+			line-height: 178px;
+			text-align: center;
+		}
+
+		.avatar {
+			width: 178px;
+			height: 178px;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div id="Query_list_information">
+		<el-form :inline="true" class="demo-form-inline">
+			<form id="submitForm">
+		<table width="100%">
+			<tr>
+				<td>
+					<font color="black">您正在做的业务是：人力资源--人力资源档案管理--人力资源档案查看 </font>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">
+						<input type="button" value="复核通过" class="BUTTON_STYLE1" id="submitButton" :data-url="getUrl" />
+					<input type="button" value="返回" class="BUTTON_STYLE1 updatePage" data-url="/HumanResources/Check_list">
+				</td>
+			</tr>
+		</table>
+			<!-- 包裹表单的表格元素 -->
+			<table width="100%" border="1" cellpadding=3 cellspacing=1
+				   bordercolorlight=#848284 bordercolordark=#eeeeee
+				   class="TABLE_STYLE1">
+				<tr>
+					<td class="TD_STYLE1">
+						档案编号
+					</td>
+					<td colspan="4" class="TD_STYLE2">
+							@QueryLocate.HumanId
+					</td>
+				</tr>
+				<tr>
+					<td class="TD_STYLE1" width="0">
+						I级机构
+					</td>
+					<td width="0" class="TD_STYLE2">
+						@QueryLocate.FirstKindName
+					</td>
+					<td width="0" class="TD_STYLE1">
+						II级机构
+					</td>
+					<td width="0" class="TD_STYLE2">
+						@QueryLocate.SecondKindName
+					</td>
+					<td width="0" class="TD_STYLE1">
+						III级机构
+					</td>
+					<td class="TD_STYLE2" width="2%">
+						@QueryLocate.ThirdKindName
+					</td>
+
+					<td rowspan="5">
+						<!-- 上传头像 -->
+						<div class="image">
+								<el-upload class="avatar-uploader" :disabled="true"
+									   action="@Url.Action("ImageUpload","HumanResources")"
+									   :show-file-list="false"
+									   :on-success="handleAvatarSuccess"
+									   :before-upload="beforeAvatarUpload">
+									<img v-if="imageUrl" :src="imageUrl" class="avatar">
+								<i v-else class="el-icon-plus avatar-uploader-icon"></i>
+							</el-upload>
+						</div>
+					</td>
+
+				</tr>
+				<!-- 第二行表单项 -->
+				<tr>
+					<td class="TD_STYLE1">
+						职位分类
+					</td>
+					<td class="TD_STYLE2">
+						@QueryLocate.HumanMajorKindName
+					</td>
+					<td class="TD_STYLE1">
+						职位名称
+					</td>
+					<td class="TD_STYLE2">
+						@QueryLocate.HunmaMajorName
+					</td>
+					<td>职称</td>
+					<td>
+						<el-form-item label="">
+							<el-input v-model="HumanProDesignation" :readonly="true"></el-input>
+						</el-form-item>
+					</td>
+				</tr>
+				<tr>
+					<td>姓名</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanName":readonly="true"></el-input>
+						</el-form-item>
+					</td>
+					<td>性别</td>
+					<td>
+						<el-form-item label="">
+								<el-select v-model="HumanSex":readonly="true">
+								<el-option v-for="item in sexs"
+										   :key="item.sexId"
+										   :label="item.sex"
+										   :value="item.sex"
+										   :selected="HumanSex == item.sex">
+								</el-option>
+							</el-select>
+							<input type="hidden" v-model="HumanSex" name="HumanSex" />
+						</el-form-item>
+					</td>
+					<td>EMAIL</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanEmail":readonly="true"></el-input>
+							<input type="hidden" v-model="HumanEmail" name="HumanEmail" />
+						</el-form-item>
+					</td>
+				</tr>
+				<!-- 第四行表单项 -->
+				<tr>
+					<td>电话</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanTelephone" :readonly="true"></el-input>
+						</el-form-item>
+						<input type="hidden" v-model="HumanTelephone" name="HumanTelephone" />
+					</td>
+					<td>QQ</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanQQ" :readonly="true"></el-input>
+							<input type="hidden" v-model="HumanQQ" name="HumanQQ" />
+						</el-form-item>
+					</td>
+					<td>手机</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanMobilephone" :readonly="true"></el-input>
+							<input type="hidden" v-model="HumanMobilephone" name="HumanMobilephone" />
+						</el-form-item>
+					</td>
+				</tr>
+				<!-- 第五行表单项 -->
+				<tr>
+					<td>住址</td>
+					<td colspan="3">
+						<el-form-item label="" style="width:450px">
+								<el-input v-model="HumanAddress" :readonly="true" style="width:450px"></el-input>
+							<input type="hidden" v-model="HumanAddress" name="HumanAddress" />
+						</el-form-item>
+					</td>
+					<td>邮 编</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanPostcode" :readonly="true"></el-input>
+							<input type="hidden" v-model="HumanPostcode" name="HumanPostcode" />
+						</el-form-item>
+					</td>
+				</tr>
+				<!-- 第六行表单项 -->
+				<tr>
+					<td>国籍</td>
+					<td>
+						<el-form-item label="">
+							<el-input v-model="HumanNationality" :readonly="true"></el-input>
+						</el-form-item>
+					</td>
+					<td>出生地</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanBirthplace" :readonly="true"></el-input>
+							<input type="hidden" v-model="HumanBirthplace" name="HumanBirthplace" />
+						</el-form-item>
+					</td>
+					<td>生日</td>
+					<td>
+						<el-form-item label="">
+							<el-date-picker v-model="HumanBirthday"
+											name="HumanBirthday"
+											type="date"
+												:readonly="true">
+							</el-date-picker>
+						</el-form-item>
+					</td>
+					<td>民族</td>
+					<td>
+						<el-form-item label="">
+							<el-input v-model="HumanRace" :readonly="true"></el-input>
+						</el-form-item>
+					</td>
+				</tr>
+				<!-- 第七行表单项 -->
+				<tr>
+					<td>宗教信仰</td>
+					<td>
+						<el-form-item label="">
+							<el-input v-model="HumanReligion" :readonly="true"></el-input>
+						</el-form-item>
+					</td>
+					<td>政治面貌</td>
+					<td>
+						<el-form-item label="">
+							<el-input v-model="HumanReligion" :readonly="true"></el-input>
+						</el-form-item>
+					</td>
+					<td>身份证号码</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanIdCard" :readonly="true"></el-input>
+							<input type="hidden" v-model="HumanIdCard" name="HumanIdCard" />
+						</el-form-item>
+					</td>
+					<td>社会保障号码</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanSocietySecurityId" :readonly="true"></el-input>
+							<input type="hidden" v-model="HumanSocietySecurityId" name="HumanSocietySecurityId" />
+						</el-form-item>
+					</td>
+				</tr>
+				<!-- 第八行表单项 -->
+				<tr>
+					<td>年 龄</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanAge" :readonly="true"></el-input>
+							<input type="hidden" v-model="HumanAge" name="HumanAge" />
+						</el-form-item>
+					</td>
+					<td>学 历</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanEducatedDegree" :readonly="true"></el-input>
+						</el-form-item>
+					</td>
+					<td>教育年限</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanEducatedYears" :readonly="true"></el-input>
+						</el-form-item>
+					</td>
+					<td>学历专业</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanEducatedMajor" :readonly="true"></el-input>
+						</el-form-item>
+					</td>
+				</tr>
+				<!-- 第九行表单项 -->
+				<tr>
+					<td>薪酬标准</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="SalaryStandardId" :readonly="true"></el-input>
+						</el-form-item>
+					</td>
+					<td>开户行</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanBank" :readonly="true"></el-input>
+							<input type="hidden" v-model="HumanBank" name="HumanBank" />
+						</el-form-item>
+					</td>
+					<td>账号</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanAccount" :readonly="true"></el-input>
+							<input type="hidden" v-model="HumanAccount" name="HumanAccount" />
+						</el-form-item>
+					</td>
+					<td>登记人</td>
+					<td>
+						<el-form-item label="">
+							<el-input v-model="RegisterName" placeholder="请输入登记人" :readonly="true"></el-input>
+							<input type="hidden" v-model="Register" name="Register" />
+						</el-form-item>
+					</td>
+				</tr>
+				<!-- 第十行表单项 -->
+				<tr>
+					<td>建档时间</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="RegistTime" :readonly="true"></el-input>
+							<input type="hidden" v-model="RegistTime" name="RegistTime" /><!--SalaryStandardName-->
+					</td>
+					<td>特 长</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanSpeciality" :readonly="true"></el-input>
+						</el-form-item>
+					</td>
+					<td>爱 好</td>
+					<td>
+						<el-form-item label="">
+								<el-input v-model="HumanHobby" :readonly="true"></el-input>
+						</el-form-item>
+					</td>
+				</tr>
+				<tr>
+					<td>个人履历</td>
+					<td colspan="7">
+							<el-input v-model="HumanHistroyRecords" :readonly="true"></el-input>
+						<input type="hidden" v-model="HumanHistroyRecords" name="HumanHistroyRecords" />
+					</td>
+				</tr>
+				<!-- 第十二行表单项 -->
+				<tr>
+					<td>家庭关系</td>
+					<td colspan="7">
+							<el-input v-model="HumanFamilyMembership" :readonly="true"></el-input>
+						<input type="hidden" v-model="HumanFamilyMembership" name="HumanFamilyMembership" />
+					</td>
+				</tr>
+				<!-- 第十三行表单项 -->
+				<tr>
+					<td>备注</td>
+					<td colspan="7">
+							<el-input v-model="Remark" :readonly="true"></el-input>
+						<input type="hidden" v-model="Remark" name="Remark" />
+					</td>
+				</tr>
+			</table>
+		</form>
+		</el-form>
+		<div style="height:130px">
+		</div>
+	</div>
+	<script>
+
+		$(document).ready(function () {
+			// 侧边栏链接点击事件
+			$(".refresh-link").click(function (e) {
+				e.preventDefault();
+
+				var url = $(this).data("url");
+				refreshContent(url);
+			});
+			//当提交按钮点击时，获取按钮中的路径进行提交返回的页面将填充到主内容中（用于表单提交）
+			$("#submitButton").click(function (e) {
+				e.preventDefault();
+				var url = $(this).data("url");
+				$.post(url, $("#submitForm").serialize(),
+					function (data) {
+						console.log("updateGo进行输出打印：", data);
+						$("#main-content").html(data);
+					}
+				)
+			})
+			//用于跳转页面
+			$(".updatePage").click(function (e) {
+				e.preventDefault();
+				var url = $(this).data("url");
+				refreshContent(url);
+			})
+
+			//负责执行删除操作
+			$(".delete-link").click(function (e) {
+				if (confirm("确定删除吗？")) {
+					e.preventDefault();
+					var url = $(this).data("url");
+					isDelete(url);
+				}
+			})
+
+			// 刷新右边内容方法
+			function refreshContent(url) {
+				$.ajax({
+					url: url,
+					type: "GET",
+					success: function (result) {
+						$("#main-content").html(result);
+					},
+					error: function (xhr, status, error) {
+						console.log(error);
+					}
+				});
+			}
+			// 异步执行返回是否成功提示
+			function isDelete(url) {
+				$.ajax({
+					url: url,
+					type: "DELETE",
+					success: function (data) {
+						if (data != "false") {
+							$("#main-content").html(data);
+						} else {
+							alert("删除失败");
+						}
+					}
+				});
+			}
+		});
+		new Vue({
+			el: '#Query_list_information',
+			data: {
+				Checker: "",//复核人
+				CheckTime: "",//复核时间
+				imageUrl: '',	// 上传的头像路径
+				sexs: [{ "sexId": "0", "sex": "男" }, { "sexId": "1", "sex": "女" }],	// 性别
+				options: [],	// 机构级联展示的数据--------------=
+				cmks: [],	// 职位级联展示的数据------------------=
+				selectedCMKs: [],	// 职位级联选择的数据
+				selected: [],	// 级联控件选择接收的数据
+				JsonSelectedCMKs: '',	// 职位级联选择转的Json数据
+				JsonSelected: '',	// 转换为Json类型的选择的数据
+				cpcs: [],	// 下拉列表展示职称的数据----------------=
+				selectedCpc: '',	// 选择的职称编号
+				HumanName: '',	// 姓名
+				HumanProDesignation:"",//职称
+				HumanSex: '',	// 性别
+				HumanEmail: '',	// 邮箱
+				HumanTelephone: '',	// 电话
+				HumanQQ: '',	// QQ
+				HumanMobilephone: '',	// 手机
+				HumanAddress: '',	// 地址
+				HumanPostcode: '',	// 邮编
+				HumanNationality: '',	// 国籍
+				HumanNationalitys: [],	// 可供选择的国籍---------------=
+				HumanBirthplace: '',	// 出生地
+				HumanBirthday: '',	//  生日
+				HumanRace: '',	// 民族
+				HumanRaces: [],	// 可供选择的民族-----------------------=
+				HumanReligion: '',	// 宗教信仰
+				HumanReligions: [],	// 可供选择的宗教信仰------------------=
+				HumanParty: '',	// 政治面貌
+				HumanPartys: [],	// 可供选择的政治面貌----------------------=
+				HumanIdCard: '',	// 身份证号
+				HumanSocietySecurityId: '',	// 社会保障号码
+				HumanAge: '',	// 年龄
+				HumanEducatedDegree: '',	// 学历
+				HumanEducatedDegrees: [],	// 可供选择的学历-----------------=
+				HumanEducatedYears: '',	// 教育年限
+				HumanEducatedYearslist: [],	// 可供选择的教育年限-----------------=
+				HumanEducatedMajor: '',	// 学历专业
+				HumanEducatedMajors: [],	// 可供选择的学历专业------------------=
+				SalaryStandardId: '',	//薪酬标准编号
+				SalaryStandards: [],	//薪酬标准集合----------------------=
+				HumanBank: '',	// 开户行
+				HumanAccount: '',	// 银行账号
+				Register: '',	// 档案登记人
+				RegisterName: '',	// 登记人名字
+				RegistTime: '',	// 档案登记时间（当前时间）
+				HumanSpeciality: '',	// 特长
+				HumanSpecialitys: [],	// 可供选择的特长--------------------=
+				HumanHobby: '',	// 爱好
+				HumanHobbys: [],	// 可供选择的爱好--------------------------=
+				HumanHistroyRecords: '',	// 个人履历，简历
+				HumanFamilyMembership: '',	// 家庭关系
+				Remark: '',	// 备注
+				Changer: '',
+				ChangeTime: '',
+				LastlyChangeTime: '',
+				AttachmentName: '',
+			},
+			methods: {
+				/**
+				 * 刷新选中的机构，职位
+				 */
+				handleChange(value) {
+					console.log("点击项输出", value);
+					this.JsonSelected = JSON.stringify(this.selected);
+					this.JsonSelectedCMKs = JSON.stringify(this.selectedCMKs);
+					console.log("级别" + this.JsonSelected, "职位" + this.JsonSelectedCMKs)
+				},
+				/**
+				 * 创建一个临时的 URL 地址，用于在页面上显示上传的头像
+				 */
+				handleAvatarSuccess(res, file) {
+					const filePath = res;
+					if (filePath) {
+						this.imageUrl = filePath;
+					}
+					console.log(this.imageUrl);
+				},
+				/**
+				 * 检查上传头像文件的验证函数（只能是jpg格式，限制不能超过2MB）
+				 */
+				beforeAvatarUpload(file) {
+					const isJPG = file.type === 'image/jpeg';
+					const isLt2M = file.size / 1024 / 1024 < 2;
+
+					if (!isJPG) {
+						this.$message.error('上传头像图片只能是 JPG 格式!');
+					}
+					if (!isLt2M) {
+						this.$message.error('上传头像图片大小不能超过 2MB!');
+					}
+					return isJPG && isLt2M;
+				},
+				/**
+				 * 检查图片路径到控制台
+				 */
+				showImageUrl() {
+					console.log(this.imageUrl)
+				},
+			},
+			mounted() {
+				/**
+				 * 初始化登记人
+				 */
+				var loginUser = JSON.parse(sessionStorage.getItem("LoginUser"));
+				this.RegisterName = loginUser.uName;
+				this.Register = loginUser.uName;
+				this.Changer = loginUser.uName;
+				this.Checker = loginUser.uName;
+				/**
+				 * 初始化登记时间
+				 */
+				var datetime = new Date("Thu Dec 28 2023 10:13:54 GMT+0800");
+				var options = { year: 'numeric', month: '2-digit', day: '2-digit' };
+				var formattedDate = new Intl.DateTimeFormat('zh-CN', options).format(datetime);
+				this.RegistTime = formattedDate;
+				this.ChangeTime = formattedDate;
+				this.LastlyChangeTime = formattedDate;
+				this.CheckTime = formattedDate;
+				/**
+				 * 获取所有的机构级联
+				 */
+				axios.get("@Url.Action("GetCFFKsAndCFSKs","HumanResources")")
+					.then(res => {
+						this.options = res.data;
+					})
+				/**
+				 * 获取所有的职位级联
+				 */
+				axios.get("@Url.Action("GetCMKs","HumanResources")")
+					.then(res => {
+						this.cmks = res.data;
+					})
+				/**
+				*	查询所有职称填充到cpcs
+				*/
+				axios.get("@Url.Action("GetByAttributeKind","HumanResources")?type=职称设置")
+					.then(res => {
+						this.cpcs = res.data;
+					})
+				/**
+				 * 查询可供选择的国籍HumanNationalitys
+				 */
+				axios.get("@Url.Action("GetByAttributeKind","HumanResources")?type=国籍")
+					.then(res => {
+						this.HumanNationalitys = res.data;
+					})
+				/**
+				 * 查询可供选择的民族HumanRaces
+				 */
+				axios.get("@Url.Action("GetByAttributeKind","HumanResources")?type=民族")
+					.then(res => {
+						this.HumanRaces = res.data;
+					})
+				/**
+				 * 查询可供选择的宗教信仰HumanReligions
+				 */
+				axios.get("@Url.Action("GetByAttributeKind","HumanResources")?type=宗教信仰")
+					.then(res => {
+						this.HumanReligions = res.data;
+					})
+				/**
+				 * 查询可供选择的政治面貌HumanPartys
+				 */
+				axios.get("@Url.Action("GetByAttributeKind","HumanResources")?type=政治面貌")
+					.then(res => {
+						this.HumanPartys = res.data;
+					})
+				/**
+				 * 查询可供选择的学历HumanEducatedDegrees
+				 */
+				axios.get("@Url.Action("GetByAttributeKind","HumanResources")?type=学历")
+					.then(res => {
+						this.HumanEducatedDegrees = res.data;
+					})
+				/**
+				 * 查询可供选择的教育年限HumanEducatedYearslist
+				 */
+				axios.get("@Url.Action("GetByAttributeKind","HumanResources")?type=教育年限")
+					.then(res => {
+						this.HumanEducatedYearslist = res.data;
+					})
+				/**
+				 * 查询可供选择的学历专业HumanEducatedMajors
+				 */
+				axios.get("@Url.Action("GetByAttributeKind","HumanResources")?type=专业")
+					.then(res => {
+						this.HumanEducatedMajors = res.data;
+					})
+				/**
+				 * 查询可供选择的薪酬标准SalaryStandards
+				 */
+				axios.get("@Url.Action("GetSSs","HumanResources")")
+					.then(res => {
+						this.SalaryStandards = res.data;
+					})
+				/**
+				 * 查询可供选择的特长HumanSpecialitys
+				 */
+				axios.get("@Url.Action("GetByAttributeKind","HumanResources")?type=特长")
+					.then(res => {
+						this.HumanSpecialitys = res.data;
+					})
+				/**
+				 * 查询可供选择的爱好HumanHobbys
+				 */
+				axios.get("@Url.Action("GetByAttributeKind","HumanResources")?type=爱好")
+					.then(res => {
+						this.HumanHobbys = res.data;
+					})
+
+				this.imageUrl = '@QueryLocate.HumanPicture';
+
+				var encoded = '@QueryLocate.HumanName';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanName = decoded;
+
+				var encoded = '@QueryLocate.HumanProDesignation';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanProDesignation = decoded;
+
+				var encoded = '@QueryLocate.HumanSex';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanSex = decoded;
+
+				var encoded = '@QueryLocate.HumanProDesignation';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.selectedCpc = decoded;
+
+				var encoded = '@QueryLocate.HumanEmail';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanEmail = decoded;
+
+				var encoded = '@QueryLocate.HumanTelephone';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanTelephone = decoded;
+
+				var encoded = '@QueryLocate.HumanQQ';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanQQ = decoded;
+
+				var encoded = '@QueryLocate.HumanMobilephone';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanMobilephone = decoded;
+
+				var encoded = '@QueryLocate.HumanAddress';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanAddress = decoded;
+
+				var encoded = '@QueryLocate.HumanPostcode';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanPostcode = decoded;
+
+				var encoded = '@QueryLocate.HumanNationality';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanNationality = decoded;
+
+				var encoded = '@QueryLocate.HumanBirthplace';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanBirthplace = decoded;
+
+				var encoded = '@QueryLocate.HumanBirthday';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanBirthday = decoded;
+
+				var encoded = '@QueryLocate.HumanRace';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanRace = decoded;
+
+				var encoded = '@QueryLocate.HumanReligion';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanReligion = decoded;
+
+				var encoded = '@QueryLocate.HumanParty';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanParty = decoded;
+
+				var encoded = '@QueryLocate.HumanIdCard';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanIdCard = decoded;
+
+				var encoded = '@QueryLocate.HumanSocietySecurityId';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanSocietySecurityId = decoded;
+
+				var encoded = '@QueryLocate.HumanAge';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanAge = decoded;
+
+				var encoded = '@QueryLocate.HumanEducatedDegree';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanEducatedDegree = decoded;
+
+				var encoded = '@QueryLocate.HumanEducatedYears';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanEducatedYears = decoded;
+
+				var encoded = '@QueryLocate.HumanEducatedMajor';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanEducatedMajor = decoded;
+
+				var encoded = '@QueryLocate.SalaryStandardId';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.SalaryStandardId = decoded;
+
+				var encoded = '@QueryLocate.HumanBank';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanBank = decoded;
+
+				var encoded = '@QueryLocate.HumanAccount';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanAccount = decoded;
+
+				var encoded = '@QueryLocate.HumanSpeciality';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanSpeciality = decoded;
+
+				var encoded = '@QueryLocate.HumanHobby';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanHobby = decoded;
+
+				var encoded = '@QueryLocate.HumanHistroyRecords';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanHistroyRecords = decoded;
+
+				var encoded = '@QueryLocate.HumanFamilyMembership';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.HumanFamilyMembership = decoded;
+
+				var encoded = '@QueryLocate.Remark';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.Remark = decoded;
+
+			},
+			computed: {
+				getUrl() {
+					var a = `/HumanResources/Query_list_information?id=@QueryLocate.HfdId&id2=1&name=${this.Checker}&time=${this.CheckTime}`;
+					return a;
+				}
+			}
+		})
+	</script>
+</body>
+</html>

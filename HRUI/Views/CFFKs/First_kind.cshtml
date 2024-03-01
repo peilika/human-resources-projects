@@ -1,0 +1,91 @@
+﻿@using EFCore.Models;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+    <div id="First_kind">
+		<form method="post" action="../customiz/customizAction!findFirstKind">
+			<table width="100%">
+				<tr>
+					<td>
+						<font color="black">
+							您正在做的业务是：人力资源--客户化设置--人力资源档案管理设置--I级机构设置
+						</font>
+					</td>
+				</tr>
+				<tr>
+					<td align="right">
+						<input type="button" value="添加" class="btn btn-primary updatePage"
+							   data-url="@Url.Action("First_kind_register","CFFKs")" />
+					</td>
+				</tr>
+			</table>
+			<table width="100%" border="1" cellpadding=0 cellspacing=1
+				   bordercolorlight=#848284 bordercolordark=#eeeeee
+				   class="table table-hover">
+				<tr>
+					<td width="20%" class="TD_STYLE1">
+						I级机构编号
+					</td>
+					<td width="20%" class="TD_STYLE1">
+						I级机构名称
+					</td>
+					<td width="18%" class="TD_STYLE1">
+						薪酬发放责任人编号
+					</td>
+					<td width="18%" class="TD_STYLE1">
+						销售责任人编号
+					</td>
+					<td width="12%" class="TD_STYLE1">
+						变更
+					</td>
+					<td width="12%" class="TD_STYLE1">
+						删除
+					</td>
+				</tr>
+
+				@foreach (var i in (List<CFFKs>)ViewData["getCFFKs"])
+				{
+					<tr>
+						<td class="TD_STYLE2">
+							@i.FirstKindId
+						</td>
+						<td class="TD_STYLE2">
+							@i.FirstKindName
+						</td>
+						<td class="TD_STYLE2">
+							@i.FirstKindSalaryId
+						</td>
+						<td class="TD_STYLE2">
+							@i.FirstKindSaleId
+						</td>
+						<td class="TD_STYLE2">
+							<button type="button" class="refresh-link btn btn-primary" data-url="@Url.Action("First_kind_change","CFFKs", new{ ffkId = i.FfkId } )">变更</button>
+						</td>
+						<td class="TD_STYLE2">
+							<button type="button" class="delete-link btn btn-warning" data-url="@Url.Action("First_kind_delete","CFFKs", new{ ffkId = i.FfkId } )">删除</button>
+						</td>
+					</tr>
+				}
+			</table>
+		</form>
+    </div>
+    <script src="~/js/updatego.js"></script>
+	<script>
+		new Vue({
+			el: '#First_kind',
+			data: {
+				test: 'Hello, Element UI!'
+			}
+		});
+	</script>
+</body>
+</html>
+

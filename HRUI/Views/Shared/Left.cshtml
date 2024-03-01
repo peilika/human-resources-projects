@@ -1,0 +1,652 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div id="Left">
+<nav class="d-md-block bg-dark collapse" id="sidebarMenu">
+	
+		<div class="position-sticky">
+		<ul class="nav flex-column" id="tt1" animate="true">
+			<li class="nav-item" style="margin-left: 20px;">
+
+
+				<a class="nav-link active fs-6 font-weight-bold"
+					data-bs-toggle="collapse"
+				   href="#zpgl"
+					role="button"
+					aria-expanded="true"
+					   aria-controls="zpgl" v-if="s1">招聘管理</a>
+                        
+				<div class="collapse show" id="zpgl">
+					<ul class="nav flex-column">
+						<li class="nav-item" style="margin-left: 20px;">
+
+							<a class="nav-link active fs-6 font-weight-bold"
+							   data-bs-toggle="collapse"
+							   href="#zwfb"
+							   role="button"
+							   aria-expanded="true"
+								   aria-controls="zwfb" v-if="s2">职位发布管理</a>
+									
+							<div class="collapse show" id="zwfb">
+								<ul class="nav flex-column">
+									<li class="nav-item" style="margin-left: 20px;">
+										<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="recruit/position/position_register.html" v-if="s3">职位发布登记</a>
+										</span>
+									</li>
+											
+									<li class="nav-item" style="margin-left: 20px;">
+										<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="recruit/position/position_change_update.html" v-if="s4">职位发布变更</a>
+										</span>
+									</li>
+									<li class="nav-item" style="margin-left: 20px;">
+										<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="recruit/position/position_release_search.html" v-if="s5">职位发布查询</a>
+										</span>
+									</li>
+											
+                                </ul>
+                            </div>
+						</li>
+						<li class="nav-item" style="margin-left: 20px;">
+							<a class="nav-link active fs-6 font-weight-bold"
+							   data-bs-toggle="collapse"
+							   href="#jlgl"
+							   role="button"
+							   aria-expanded="true"
+								   aria-controls="jlgl" v-if="s6">简历管理</a>
+							<div class="collapse show" id="jlgl">
+								<ul class="nav flex-column">
+									<li class="nav-item" style="margin-left: 20px;">
+										<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="recruit/resume/register.html" v-if="s7">简历登记</a>
+										</span>
+									</li>
+									<li class="nav-item" style="margin-left: 20px;">
+										<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="recruit/resume/resume-choose.html" v-if="s8">简历筛选</a>
+										</span>
+									</li>
+									<li class="nav-item" style="margin-left: 20px;">
+										<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="recruit/resume/valid-resume.html" v-if="s9">有效简历查询</a>
+										</span>
+									</li>
+                                </ul>
+                            </div>
+						</li>
+						<li class="nav-item" style="margin-left: 20px;">
+							<a class="nav-link active fs-6 font-weight-bold"
+							   data-bs-toggle="collapse"
+							   href="#msgl"
+							   role="button"
+							   aria-expanded="true"
+								   aria-controls="msgl" v-if="s10" >面试管理</a>
+							<div class="collapse show" id="msgl">
+							   <ul class="nav flex-column">
+									<li class="nav-item" style="margin-left: 20px;">
+										<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="recruit/interview/interview-list.html" v-if="s11">面试结果登记</a>
+										</span>
+									</li>
+									<li class="nav-item" style="margin-left: 20px;">
+										<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="recruit/interview/sift-list.html" v-if="s12">面试筛选</a>
+										</span>
+									</li>
+                                </ul>
+                            </div>
+						</li>
+						<li class="nav-item" style="margin-left: 20px;">
+							<a class="nav-link active fs-6 font-weight-bold"
+							   data-bs-toggle="collapse"
+							   href="#lygl"
+							   role="button"
+							   aria-expanded="true"
+								   aria-controls="lygl" v-if="s13">录用管理</a>
+							<div class="collapse show" id="lygl">
+								<ul class="nav flex-column">
+									<li class="nav-item" style="margin-left: 20px;">
+										<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="recruit/employ/register_list.html" v-if="s14">录用申请</a>
+										</span>
+									</li>
+									<li class="nav-item" style="margin-left: 20px;">
+										<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="recruit/employ/check_list.html" v-if="s15">录用审批</a>
+										</span>
+									</li>
+									<li class="nav-item" style="margin-left: 20px;">
+										<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="recruit/employ/list.html" v-if="s16">录用查询</a>
+										</span>
+									</li>
+                                </ul>
+                            </div>
+						</li>
+					</ul>
+				</div>
+			</li>
+
+			<li class="nav-item" style="margin-left: 20px;">
+				<a class="nav-link active fs-6 font-weight-bold"
+					data-bs-toggle="collapse"
+					 href="#rlzydagl"
+					role="button"
+					aria-expanded="true"
+					   aria-controls="rlzydagl" v-if="s17">人力资源档案管理</a>
+
+                <div class="collapse show" id="rlzydagl">
+                    <ul class="nav flex-column">
+                        <li class="nav-item" style="margin-left: 20px;">
+                            <span>
+									<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Lists","Employs")" v-if="s18">人力资源档案登记</a>
+                            </span>
+                        </li>
+                        <li class="nav-item" style="margin-left: 20px;">
+                            <span>
+									<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Check_List","HumanResources")" v-if="s19">人力资源档案登记复核</a>
+                            </span>
+                        </li>
+                        <li class="nav-item" style="margin-left: 20px;">
+                            <span>
+									<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Query_locate","HumanResources")" v-if="s20">人力资源档案查询</a>
+                            </span>
+                        </li>
+                        <li class="nav-item" style="margin-left: 20px;">
+                            <span>
+									<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Change_list","HumanResources")" v-if="s21">人力资源档案变更</a>
+                            </span>
+                        </li>
+                        <li class="nav-item" style="margin-left: 20px;">
+							<a class="nav-link active fs-6 font-weight-bold"
+							   data-bs-toggle="collapse"
+							   href="#rlzydascgl"
+							   role="button"
+							   aria-expanded="true"
+								   aria-controls="rlzydascgl" v-if="s22">人力资源档案删除管理</a>
+							<div class="collapse show" id="rlzydascgl">
+								<ul class="nav flex-column">
+									<li class="nav-item" style="margin-left: 20px;">
+										<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Delete_list","HumanResources")" v-if="s23">人力资源档案删除</a>
+										</span>
+									</li>
+									<li class="nav-item" style="margin-left: 20px;">
+											<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Recovery_list","HumanResources")" v-if="s24">档案删除恢复</a>
+										</span>
+									</li>
+									<li class="nav-item" style="margin-left: 20px;">
+											<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Delete_forever_list","HumanResources")" v-if="s25">人力资源档案永久删除</a>
+										</span>
+									</li>
+								</ul>
+                            </div>
+                        </li>
+                    </ul>
+				</div>
+				
+			</li>
+			<li class="nav-item" style="margin-left: 20px;">
+				<a class="nav-link active fs-6 font-weight-bold"
+				   data-bs-toggle="collapse"
+				   href="#xcbzgl"
+				   role="button"
+				   aria-expanded="true"
+					   aria-controls="xcbzgl" v-if="s26">薪酬标准管理</a>
+				<div class="collapse show" id="xcbzgl">
+				   <ul class="nav flex-column">
+						<li class="nav-item" style="margin-left: 20px;">
+							<span>
+									<a class="refresh-link nav-link text-white fs-6" data-url="/SSs/Salarystandard_register" v-if="s27">薪酬标准登记</a>
+							</span>
+						</li>
+						<li class="nav-item" style="margin-left: 20px;">
+							<span>
+									<a class="refresh-link nav-link text-white fs-6" data-url="/SSs/Salarystandard_check_list" v-if="s28">薪酬标准登记复核</a>
+							</span>
+						</li>
+						<li class="nav-item" style="margin-left: 20px;">
+							<span>
+									<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Salarystandard_query_locate","SSs")" v-if="s29">薪酬标准查询</a>
+							</span>
+						</li>
+                    </ul>
+                </div>
+			</li>
+			<li class="nav-item" style="margin-left: 20px;">
+				<a class="nav-link active fs-6 font-weight-bold"
+				   data-bs-toggle="collapse"
+				   href="#xcffgl"
+				   role="button"
+				   aria-expanded="true"
+					   aria-controls="xcffgl" v-if="s31">薪酬发放管理</a>
+				<div class="collapse show" id="xcffgl">
+				   <ul class="nav flex-column">
+						<li class="nav-item" style="margin-left: 20px;">
+							<span>
+									<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Register_locate","SSDs")" v-if="s29">薪酬发放登记</a>
+						</li>
+						<li class="nav-item" style="margin-left: 20px;">
+							<span>
+									<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Check_list","SSDs")" v-if="s29">薪酬发放登记复核</a>
+							</span>
+						</li>
+						<li class="nav-item" style="margin-left: 20px;">
+							<span>
+									<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("query_locate","SSDs")" v-if="s29">薪酬发放查询</a>
+							</span>
+						</li>
+                    </ul>
+                </div>
+			</li>
+			<li class="nav-item" style="margin-left: 20px;">
+				<a class="nav-link active fs-6 font-weight-bold"
+				   data-bs-toggle="collapse"
+				   href="#ddgl"
+				   role="button"
+				   aria-expanded="true"
+					   aria-controls="ddgl" v-if="s35">调动管理</a>
+				<div class="collapse show" id="ddgl">
+				   <ul class="nav flex-column">
+					<li class="nav-item" style="margin-left: 20px;">
+						<span>
+									<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Register_locate","HFDs")" v-if="s36">调动登记</a>
+						</span>
+					</li>
+					<li class="nav-item" style="margin-left: 20px;">
+						<span>
+									<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Check_list","HFDs")" v-if="s37">调动审核</a>
+						</span>
+					</li>
+					<li class="nav-item" style="margin-left: 20px;">
+						<span>
+									<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Locate","HFDs")" v-if="s38">调动查询</a>
+						</span>
+					</li>
+                    </ul>
+                </div>
+			</li>
+			<li class="nav-item" style="margin-left: 20px;">
+				<a class="nav-link active fs-6 font-weight-bold"
+				   data-bs-toggle="collapse"
+				   href="#khhsz"
+				   role="button"
+				   aria-expanded="true"
+					   aria-controls="khhsz" v-if="s39">客户化设置</a>
+				<div class="collapse show" id="khhsz">
+				   <ul class="nav flex-column">
+					<li class="nav-item" style="margin-left: 20px;">
+						<a class="nav-link active fs-6 font-weight-bold"
+							data-bs-toggle="collapse"
+							href="#rlzygaglsz"
+							role="button"
+							aria-expanded="true"
+								   aria-controls="rlzygaglsz" v-if="s40">人力资源档案管理设置</a>
+						<div class="collapse show" id="rlzygaglsz">
+							<ul class="nav flex-column">
+								<li class="nav-item" style="margin-left: 20px;">
+									<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("First_kind","CFFKs")" v-if="s41">Ⅰ级机构设置</a>
+									</span>
+								</li>
+								<li class="nav-item" style="margin-left: 20px;">
+									<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Second_kind", "CFSKs")" v-if="s42">Ⅱ级机构设置</a>
+									</span>
+								</li>
+								<li class="nav-item" style="margin-left: 20px;">
+									<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Third_kind","CFTKs")" v-if="s43">Ⅲ级机构设置</a>
+									</span>
+								</li>
+								<li class="nav-item" style="margin-left: 20px;">
+									<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Profession_design","Clients")" v-if="s44">职称设置</a>
+									</span>
+								</li>
+								<li class="nav-item" style="margin-left: 20px;">
+									<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Major_kind","Clients")" v-if="s45">职位分类设置</a>
+									</span>
+								</li>
+								<li class="nav-item" style="margin-left: 20px;">
+									<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Major","Clients")" v-if="s46">职位设置</a>
+									</span>
+								</li>
+								<li class="nav-item" style="margin-left: 20px;">
+									<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Public_char","CPCs")" v-if="s47">公共属性设置</a>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="nav-item" style="margin-left: 20px;">
+						<a class="nav-link active fs-6 font-weight-bold"
+							data-bs-toggle="collapse"
+							href="#xcglsz"
+							role="button"
+							aria-expanded="true"
+								   aria-controls="xcglsz" v-if="s48">薪酬管理设置</a>
+							<div class="collapse show" id="xcglsz">
+							   <ul class="nav flex-column">
+									<li class="nav-item" style="margin-left: 20px;">
+										<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Salary_item","Salarys")" v-if="s49">薪酬项目设置</a>
+										</span>
+									</li>
+									<li class="nav-item" style="margin-left: 20px;">
+										<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="client/salary_grant_mode.html" v-if="s50">薪酬发放方式设置</a>
+										</span>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item" style="margin-left: 20px;">
+							<a class="nav-link active fs-6 font-weight-bold"
+							   data-bs-toggle="collapse"
+							   href="#qtsz"
+							   role="button"
+							   aria-expanded="true"
+								   aria-controls="qtsz" v-if="s51">其他设置</a>
+							<div class="collapse show" id="qtsz">
+								<ul class="nav flex-column">
+									<li class="nav-item" style="margin-left: 20px;">
+										<span>
+												<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Primary_key","Primarys")" v-if="s52">关键字查询设置</a>
+										</span>
+									</li>
+                                </ul>
+                            </div>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li class="nav-item" style="margin-left: 20px;">
+				<a class="nav-link active fs-6 font-weight-bold"
+				   data-bs-toggle="collapse"
+				   href="#qxgl"
+				   role="button"
+				   aria-expanded="true"
+					   aria-controls="qxgl" v-if="s57">权限管理</a>
+				<div class="collapse show" id="qxgl">
+					<ul class="nav flex-column">
+						<li class="nav-item" style="margin-left: 20px;">
+							<span>
+									<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("User_List","Powers")" v-if="s58">用户管理</a>
+							</span>
+						</li>
+						<li class="nav-item" style="margin-left: 20px;">
+							<span>
+									<a class="refresh-link nav-link text-white fs-6" data-url="@Url.Action("Right_List","Powers")" v-if="s59">角色管理</a>
+							</span>
+						</li>
+                    </ul>
+                </div>
+			</li>
+		</ul>
+	</div>
+	}
+</nav>
+</div>
+
+<script>
+	$(document).ready(function () {
+		//点击时改变颜色
+		$('.refresh-link').on('click', function () {
+			// 移除所有选中项的 active 类
+			$('.refresh-link').css('background-color', '#212529');
+
+			// 将当前点击的选项添加 active 类
+			$(this).css('background-color', '#545C64');
+		});
+		// 侧边栏链接点击事件
+		$(".refresh-link").click(function (e) {
+			e.preventDefault();
+
+			var url = $(this).data("url");
+			refreshContent(url);
+		});
+		//当提交按钮点击时，获取按钮中的路径进行提交返回的页面将填充到主内容中（用于表单提交）
+		$("#submitButton").click(function (e) {
+			e.preventDefault();
+			var url = $(this).data("url");
+			$.post(url, $("#submitForm").serialize(),
+				function (data) {
+					$("#main-content").html(data);
+				},
+				"json"
+			)
+		})
+		//用于跳转页面
+		$("#updatePage").click(function (e) {
+			e.preventDefault();
+			var url = $(this).data("url");
+			refreshContent(url);
+		})
+
+		// 刷新右边内容方法
+		function refreshContent(url) {
+			$.ajax({
+				url: url,
+				type: "GET",
+				success: function (result) {
+					$("#main-content").html(result);
+				},
+				error: function (xhr, status, error) {
+					console.log(error);
+				}
+			});
+		}
+	});
+	new Vue({
+		el: '#Left',
+		data: {
+				Uid: 0,
+				RJurData: [],
+					s1: false,
+					s2: false,
+					s3: false,
+					s4: false,
+					s5: false,
+					s6: false,
+					s7: false,
+					s8: false,
+					s9: false,
+					s10: false,
+					s11: false,
+					s12: false,
+					s13: false,
+					s14: false,
+					s15: false,
+					s16: false,
+					s17: false,
+					s18: false,
+					s19: false,
+					s20: false,
+					s21: false,
+					s22: false,
+					s23: false,
+					s24: false,
+					s25: false,
+					s26: false,
+					s27: false,
+					s28: false,
+					s29: false,
+					s30: false,
+					s31: false,
+					s32: false,
+					s33: false,
+					s34: false,
+					s35: false,
+					s36: false,
+					s37: false,
+					s38: false,
+					s39: false,
+					s40: false,
+					s41: false,
+					s42: false,
+					s43: false,
+					s44: false,
+					s45: false,
+					s46: false,
+					s47: false,
+					s48: false,
+					s49: false,
+					s50: false,
+					s51: false,
+					s52: false,
+					s53: false,
+					s54: false,
+					s55: false,
+					s56: false,
+					s57: false,
+					s58: false,
+					s59: false
+		},
+		methods: {
+			compareData() {
+				for (let i = 0; i < this.RJurData.length; i++) {
+					if (this.RJurData[i] == 1) {
+						this.s1 = true;
+					} else if(this.RJurData[i] == 2){
+						this.s2 = true;
+					} else if (this.RJurData[i] == 3) {
+						this.s3 = true;
+					} else if (this.RJurData[i] == 4) {
+						this.s4 = true;
+					} else if (this.RJurData[i] == 5) {
+						this.s5 = true;
+					} else if (this.RJurData[i] == 6) {
+						this.s6 = true;
+					} else if (this.RJurData[i] == 7) {
+						this.s7 = true;
+					} else if (this.RJurData[i] == 8) {
+						this.s8 = true;
+					} else if (this.RJurData[i] == 9) {
+						this.s9= true;
+					} else if (this.RJurData[i] == 10) {
+						this.s10= true;
+					} else if (this.RJurData[i] == 11) {
+						this.s11= true;
+					} else if (this.RJurData[i] == 12) {
+						this.s12= true;
+					} else if (this.RJurData[i] == 13) {
+						this.s13= true;
+					} else if (this.RJurData[i] == 14) {
+						this.s14 = true;
+					} else if (this.RJurData[i] == 15) {
+						this.s15= true;
+					}else if(this.RJurData[i] == 16 ){
+						this.s16= true;
+					} else if (this.RJurData[i] == 17) {
+						this.s17= true;
+					} else if (this.RJurData[i] == 18) {
+						this.s18= true;
+					} else if (this.RJurData[i] == 19) {
+						this.s19 = true;
+					} else if (this.RJurData[i] == 20) {
+						this.s20= true;
+					} else if (this.RJurData[i] == 21) {
+						this.s21= true;
+					} else if (this.RJurData[i] == 22) {
+						this.s22= true;
+					} else if (this.RJurData[i] == 23) {
+						this.s23= true;
+					} else if (this.RJurData[i] == 24) {
+						this.s24= true;
+					}else if(this.RJurData[i] == 25){
+						this.s25= true;
+					} else if (this.RJurData[i] == 26) {
+						this.s26= true;
+					}else if(this.RJurData[i] == 27){
+						this.s27= true;
+					} else if (this.RJurData[i] == 28) {
+						this.s28= true;
+					} else if (this.RJurData[i] == 29) {
+						this.s29= true;
+					} else if (this.RJurData[i] == 30) {
+						this.s30= true;
+					} else if (this.RJurData[i] == 31) {
+						this.s31= true;
+					} else if (this.RJurData[i] == 32) {
+						this.s32= true;
+					} else if (this.RJurData[i] == 33) {
+						this.s33= true;
+					}else if(this.RJurData[i] == 34){
+						this.s34= true;
+					} else if (this.RJurData[i] == 35) {
+						this.s35= true;
+					} else if (this.RJurData[i] == 36) {
+						this.s36= true;
+					} else if (this.RJurData[i] == 37) {
+						this.s37= true;
+					} else if (this.RJurData[i] == 38) {
+						this.s38= true;
+					}else if(this.RJurData[i] == 39){
+						this.s39= true;
+					}else if(this.RJurData[i] == 40){
+						this.s40= true;
+					} else if (this.RJurData[i] == 41) {
+						this.s41= true;
+					} else if (this.RJurData[i] == 42) {
+						this.s42= true;
+					}else if(this.RJurData[i] == 43){
+						this.s43= true;
+					}else if(this.RJurData[i] == 44){
+						this.s44= true;
+					} else if (this.RJurData[i] == 45) {
+						this.s45= true;
+					} else if (this.RJurData[i] == 46) {
+						this.s46= true;
+					}else if(this.RJurData[i] == 47){
+						this.s47= true;
+					}else if(this.RJurData[i] == 48){
+						this.s48= true;
+					}else if(this.RJurData[i] == 49){
+						this.s49= true;
+					}else if(this.RJurData[i] == 50){
+						this.s50= true;
+					}else if(this.RJurData[i] == 51){
+						this.s51= true;
+					}else if(this.RJurData[i] == 52){
+						this.s52= true;
+					}else if(this.RJurData[i] == 53){
+						this.s53 = true;
+					}else if(this.RJurData[i] == 54){
+						this.s54 = true;
+					}else if(this.RJurData[i] == 55){
+						this.s55 = true;
+					}else if(this.RJurData[i] == 56){
+						this.s56 = true;
+					}else if(this.RJurData[i] == 57){
+						this.s57 = true;
+					}else if(this.RJurData[i] == 58){
+						this.s58 = true;
+					}else if(this.RJurData[i] == 59){
+						this.s59 = true;
+					}
+				}
+			}
+		},
+		mounted() {
+			var loginUser = JSON.parse(sessionStorage.getItem("LoginUser"));
+			this.Uid = loginUser.uId;
+			var a = "/Shared/Left?uid=";
+			var url = a + this.Uid;
+			axios.post(url)
+				.then(res => {
+					this.RJurData = res.data;
+					this.compareData();
+				});
+		}
+	});
+</script>  

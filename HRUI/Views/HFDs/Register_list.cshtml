@@ -1,0 +1,88 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	var list = ViewData["list"] as string;
+}
+<div id="Register_list">
+	<form id="submitForm">
+		<font color="black"> 您在做的业务是-人力资源-调动管理-调动登记列表 </font>
+		<br /><br />
+		<table width="100%" border="1" cellpadding=0 cellspacing=1
+			   bordercolorlight=#848284 bordercolordark=#eeeeee
+			   class="table">
+			<tr height="15">
+				<td width="18%" class="TD_STYLE1">
+					I级机构
+				</td>
+				<td width="18%" class="TD_STYLE1">
+					II级机构
+				</td>
+				<td width="18%" class="TD_STYLE1">
+					Ⅲ级机构
+				</td>
+				<td width="18%" class="TD_STYLE1">
+					薪酬标准
+				</td>
+				<td width="18%" class="TD_STYLE1">
+					名字
+				</td>
+				<td width="10%" class="TD_STYLE1">
+					调动
+				</td>
+			</tr>
+			<tr height="17" v-for="item in list">
+				<td class="TD_STYLE2">
+					{{ item.FirstKindName }}
+				</td>
+				<td class="TD_STYLE2">
+					{{ item.SecondKindName }}
+				</td>
+				<td class="TD_STYLE2">
+					{{ item.ThirdKindName }}
+				</td>
+				<td class="TD_STYLE2">
+					{{ item.SalaryStandardName }}
+				</td>
+				<td class="TD_STYLE2">
+					{{ item.HumanName }}
+				</td>
+				<td class="TD_STYLE2">
+					<el-button type="primary" v-on:click="updateDD(item.HumanId)" icon="el-icon-edit" circle></el-button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</div>
+<script>
+	new Vue({
+		el: '#Register_list',
+		data: {
+			list: '',
+		},
+		methods: {
+			/**
+			 * 进行调动操作
+			 */
+			updateDD(val) {
+				console.log('HumanId is ----> '+val)
+				$.ajax({
+					url: "/HFDs/Register/"+val,
+					type: "GET",
+					success: function (result) {
+						$("#main-content").html(result);
+					},
+					error: function (xhr, status, error) {
+						console.log(error);
+					}
+				});
+			}
+		},
+		mounted() {
+			var a = '@list'.replace (/&quot;/g, '"')
+			console.log(a);
+			this.list = JSON.parse(a)
+			console.log(this.list);
+		},
+	})
+</script>

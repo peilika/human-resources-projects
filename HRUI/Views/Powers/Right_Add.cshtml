@@ -1,0 +1,70 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+	<div id="Right_Add">
+	<form id="submitForm">
+			<table width="100%">
+				<tr>
+					<td>
+						<font color="black">您正在做的业务是：人力资源--权限管理--添加角色</font>
+					</td>
+				</tr>
+
+				<tr>
+					<td align="right">
+					<input type="button" value="保存" class="BUTTON_STYLE1" id="submitButton" data-url="/Powers/Right_Add" />
+					<input type="button" value="返回" class="BUTTON_STYLE1 updatePage" data-url="/Powers/Right_Add">
+					</td>
+				</tr>
+			</table>
+
+			<table width="100%" border="1" cellpadding=3 cellspacing=1
+				bordercolorlight=#848284 bordercolordark=#eeeeee
+				class="TABLE_STYLE1">
+				<tr>
+					<td class="TD_STYLE1">角色名称</td>
+					<td class="TD_STYLE2">
+					<el-input placeholder="请输入用户名" v-model="RolesName" style="width: 200px;"></el-input>
+					<input type="hidden" v-model="RolesName" name="RolesName" />
+					</td>
+					<td class="TD_STYLE1">角色说明</td>
+					<td class="TD_STYLE2">
+					<el-input placeholder="请输入用户名" v-model="RolesInstruction" style="width: 200px;"></el-input>
+					<input type="hidden" v-model="RolesInstruction" name="RolesInstruction" />
+					</td>
+				</tr>
+				<tr>
+					<td class="TD_STYLE1">角色是否可用</td>
+					<td colspan="3" class="TD_STYLE2">
+						<el-select v-model="RolesIf" style="width: 200px;">
+								<el-option label="是" value="1"></el-option>
+								<el-option label="否" value="0"></el-option>
+							</el-select>
+						<input type="hidden" v-model="RolesIf" name="RolesIf" />
+					</td>
+				</tr>
+			</table>
+
+		</form>
+	</div>
+	<script src="~/js/updatego.js"></script>
+	<script>
+		new Vue({
+			el: '#Right_Add',
+			data: {
+				RolesName: "",
+				RolesInstruction: "",
+				RolesIf:"",
+			},
+		})
+	</script>
+	</body>
+</html>

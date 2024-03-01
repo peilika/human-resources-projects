@@ -1,0 +1,190 @@
+﻿@using EFCore.Models;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	var a = ViewData["SSs"] as SSs;
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+	@if(a!=null){
+		<div id="Salarystandard_check">
+		<form id="submitForm">
+				<input type="hidden" name="SsdId" value="@a.SsdId">
+			<table width="100%">
+				<tr>
+					<td>
+						<font color="#0000CC">您正在做的业务是:人力资源管理--薪酬标准管理--薪酬标准登记复核</font>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div align="right">
+							<input type="button" value="复核通过" id="submitButton" data-url="@Url.Action("Salarystandard_check_success","SSs")" class="btn btn-primary">
+							<input type="button" value="返回" data-url="@Url.Action("Salarystandard_check_list","SSs")" class="updatePage btn btn-outline-info">
+						</div>
+					</td>
+				</tr>
+			</table>
+
+			<table width="100%" border="1" cellpadding=0 cellspacing=1
+				   bordercolorlight='#848284' bordercolordark='#eeeeee'
+				   class="table">
+				<tr>
+					<td width="12%" class="TD_STYLE1">
+						薪酬编号
+					</td>
+					<td width="15%" class="TD_STYLE2">
+						<input type="text" name="StandardId" value="@a.StandardId" readonly class="form-control"/>
+					</td>
+					<td width="12%" class="TD_STYLE1">
+						薪酬标准名称
+					</td>
+					<td width="11%" class="TD_STYLE2">
+							<input type="text" name="StandardName" id="standardName" value="@a.StandardName" class="form-control">
+					</td>
+					<td width="11%" class="TD_STYLE1">
+						薪酬总额
+					</td>
+					<td width="17%" class="TD_STYLE2">
+							<input type="text" name="SalarySum" v-model="SalarySum" readonly class="form-control">
+					</td>
+					<td width="12%" class="TD_STYLE1">
+						&nbsp;
+					</td>
+					<td width="10%" class="TD_STYLE2">
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td class="TD_STYLE1">
+						制定人
+					</td>
+					<td class="TD_STYLE2">
+						<input type="text" name="Designer" value="@a.Designer" readonly class="form-control">
+					</td>
+					<td class="TD_STYLE1">
+						复核人
+					</td>
+					<td class="TD_STYLE2">
+							<input type="hidden" name="Checker" v-model="Checker">
+							<input type="text" name="CheckerName" v-model="CheckerName" readonly class="form-control">
+					</td>
+					<td class="TD_STYLE1">
+						复核时间
+					</td>
+					<td class="TD_STYLE2">
+							<input type="text" name="CheckTime" v-model="CheckTime" readonly class="form-control">
+					</td>
+					<td class="TD_STYLE1">
+						&nbsp;
+					</td>
+					<td class="TD_STYLE2">
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td class="TD_STYLE1">
+						复核意见
+					</td>
+					<td colspan="7" class="TD_STYLE2">
+							<textarea name="CheckComment" v-model="CheckComment" rows="4" class="form-control"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td class="TD_STYLE1">
+						序号
+					</td>
+					<td colspan="3" class="TD_STYLE1">
+						薪酬项目名称
+					</td>
+					<td colspan="4" class="TD_STYLE1">
+						金额
+					</td>
+				</tr>
+
+				<tr v-for="item in SSDs">
+						<input type="hidden" v-model="JsonSSDs" name="JsonSSDs" />
+					<td align="center">
+							{{ item.ItemId }}
+					</td>
+					<td colspan="3">
+							{{ item.ItemName }}
+					</td>
+					<td>
+							<input type="text" name="Salary" v-model="item.Salary" class="form-control" v-on:blur="showSSDs()">
+					</td>
+					<td colspan="3">
+						&nbsp;
+					</td>
+				</tr>
+					
+				</table>    <script src="~/js/updatego.js"></script>
+
+		</form>
+		</div>
+	}
+	<script>
+		new Vue({
+			el: '#Salarystandard_check',
+			data: {
+				SSDs: JSON.parse(new DOMParser().parseFromString('@ViewData["SSDs"]', 'text/html').body.textContent),
+				JsonSSDs: '',
+				SalarySum:'',	// 总金额
+				Checker:'',	// 复核人（当前登录）
+				CheckerName: '',	// 复核人（当前登录）
+				CheckTime: '',	// 复核时间（当前时间）
+				CheckComment:'@a.CheckComment',	// 复核意见
+			},
+			methods: {
+				showSSDs(){
+					this.getSum();
+				},
+				/**
+				 * 计算总金额的函数
+				 */
+				getSum() {
+					this.SalarySum = 0;
+					this.SalarySum = 0;
+					for (var a in this.SSDs) {
+						this.SalarySum += parseInt(this.SSDs[a].Salary);
+					}
+					this.JsonSSDs = JSON.stringify(this.SSDs);
+				},
+				getTime() {
+					// 赋当前时间
+					const date = new Date();
+					const options = {
+						year: 'numeric',
+						month: '2-digit',
+						day: '2-digit',
+						hour: '2-digit',
+						minute: '2-digit',
+						second: '2-digit',
+						hour12: false
+					};
+					this.CheckTime = date.toLocaleString('zh-CN', options);
+					console.log(this.CheckTime)
+				},
+			},
+			mounted() {
+				var a = this;
+				// 在组件挂载后，使用 setInterval 方法每秒更新一次 currentTime
+				setInterval(() => {
+					a.getTime()
+				}, 1000);
+				this.getSum();
+				this.Checker = JSON.parse(sessionStorage.getItem("LoginUser")).uId
+				this.CheckerName = JSON.parse(sessionStorage.getItem("LoginUser")).uName
+				this.JsonSSDs = JSON.stringify(this.SSDs)
+			}
+		})
+    </script>
+</body>
+</html>
+

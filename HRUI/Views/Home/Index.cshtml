@@ -1,0 +1,105 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml"; // 指定使用的布局视图
+}
+
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+</head>
+
+<body>
+	<div id="Salarystandard_check_list">
+        <el-carousel height="300" type="card">
+            <el-carousel-item>
+                <img src="~/images/nk2.gif" style="width:100%;" />
+            </el-carousel-item>
+            <el-carousel-item>
+                <img src="~/images/gg.webp" style="width:100%;" />
+            </el-carousel-item>
+            <el-carousel-item>
+                <img src="~/images/bb.webp" style="width:100%;" />
+            </el-carousel-item>
+        </el-carousel>
+        <div style="width:600px;height:360px; float: left; ">
+            <span>你说得对,原神是一款二次元开放游戏....</span>
+            <el-divider></el-divider>
+
+            <el-image :src="src" style="height:200px;"></el-image>
+            <el-steps :active="active" finish-status="success">
+                <el-step title="打开原神"></el-step>
+                <el-step title="登录米哈游账号"></el-step>
+                <el-step title="启动!"></el-step>
+            </el-steps>
+
+            <el-button style="margin-top: 12px;" v-on:click="next">下一步</el-button>
+        </div>
+       
+        <video autoplay loop muted controls="controls" style="width:48%;height:50%; float: right;">
+                <source src="~/videos/yuanshen.mp4" type="video/mp4" />
+            </video>  
+        
+        <style>
+            .time {
+                font-size: 13px;
+                color: #999;
+            }
+
+            .bottom {
+                margin-top: 13px;
+                line-height: 12px;
+            }
+
+            .button {
+                padding: 0;
+                float: right;
+            }
+
+            .image {
+                width: 100%;
+                display: block;
+            }
+
+            .clearfix:before,
+            .clearfix:after {
+                display: table;
+                content: "";
+            }
+
+            .clearfix:after {
+                clear: both
+            }
+        </style>
+        
+	</div>
+	<script>
+		new Vue({
+			el: '#Salarystandard_check_list',
+			data: {
+                active: 0,
+                src: 'https://img2.baidu.com/it/u=2284990798,2536608544&fm=253&fmt=auto&app=138&f=JPEG?w=759&h=500'
+               
+			},
+			methods: {
+                next() {
+                    if (this.active++ > 2) this.active = 0;
+                }
+			},
+			mounted() {
+
+			}
+		})
+	</script>
+</body>
+</html>

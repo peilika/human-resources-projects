@@ -1,0 +1,105 @@
+﻿@using EFCore.Models;
+@model CFSKs;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+	<form id="submitForm">
+		<input type="hidden" id="firstKindName" name="cfsk.firstKindName">
+		<table width="100%">
+			<tr>
+				<td>
+					<font color="black">
+						您正在做的业务是：人力资源--客户化设置--人力资源档案管理设置--II级机构设置--II级机构添加
+					</font>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">
+					<input type="button" value="提交" class="btn btn-primary" id="submitButton" data-url="@Url.Action("Second_kind_register_success","CFSKs")">
+					<input type="button" value="返回" class="btn btn-info updatePage"
+						   data-url="@Url.Action("Second_kind","CFSKs")">
+				</td>
+			</tr>
+		</table>
+
+
+		<table width="100%" border="1" cellpadding=0 cellspacing=1
+		bordercolorlight=#848284 bordercolordark=#eeeeee
+		class="TABLE_STYLE1">
+			<tr>
+				<td width="19%" class="TD_STYLE1">
+					I级机构名称
+				</td>
+				<td width="81%" class="TD_STYLE2">
+					<select id="FirstKindId" name="FirstKindId" onchange="change()" class="form-select">
+						@foreach (var a in ViewData["cfsks"] as List<CFSKs>)
+						{
+							<option value="@a.FirstKindId">@a.FirstKindName</option>
+						}
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="TD_STYLE1">
+					II级机构名称
+				</td>
+				<td class="TD_STYLE2">
+					@Html.TextBoxFor(m => m.SecondKindName, new { @class = "form-control" })
+				</td>
+			</tr>
+			<tr>
+				<td class="TD_STYLE1">
+					薪酬发放责任人编号（多个编号之间请用"半角逗号"加"一个空格"隔开，如", "）
+				</td>
+				<td class="TD_STYLE2">
+					@Html.TextAreaFor(m => m.SecondSalaryId, new { @class = "form-control", row = "4" })
+				</td>
+			</tr>
+			<tr>
+				<td class="TD_STYLE1">
+					销售责任人编号（多个编号之间请用"半角逗号"加"一个空格"隔开，如", "）
+				</td>
+				<td class="TD_STYLE2">
+					@Html.TextAreaFor(m => m.SecondSaleId, new { @class = "form-control", row = "4" })
+				</td>
+			</tr>
+		</table>    <script src="~/js/updatego.js"></script>
+
+	</form>
+	<script type="text/javascript">
+		function check() {
+			if (document.getElementById("firstKind.ffkId").value == 0) {
+				alert("请选择I级机构名称!!!");
+				return false;
+			}
+			if (document.getElementById("secondKind.secondKindName").value == "") {
+				alert("II级机构名称不能为空!!!");
+				return false;
+			}
+			if (document.getElementById("secondKind.secondSalaryId").value == "") {
+				alert("薪酬发放责任人编号不能为空!!!");
+				return false;
+			}
+			if (document.getElementById("secondKind.secondSaleId").value == "") {
+				alert("销售责任人编号不能为空!!!");
+				return false;
+			}
+			document.forms[0].submit();
+		}
+		function change() {
+			var se = document.getElementById("FirstKindId");
+			document.getElementById("firstKindName").value = se.options[se.selectedIndex].innerHTML;
+
+		}
+    </script>
+</body>
+</html>
+

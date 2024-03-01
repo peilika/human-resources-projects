@@ -1,0 +1,3369 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HRUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HRUI.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2023\\12\\27\\20231227153559917.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2023\\12\\27\\20231227153559917.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2023\\12\\27\\20231227153636057.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2023\\12\\27\\20231227153636057.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2023\\12\\27\\20231227160710149.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2023\\12\\27\\20231227160710149.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2023\\12\\27\\20231227161204425.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2023\\12\\27\\20231227161204425.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\16\\20240116141953643.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\16\\20240116141953643.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117103918031.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117103918031.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117104554745.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117104554745.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117104758604.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117104758604.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117105254524.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117105254524.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117110129911.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117110129911.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117110324397.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117110324397.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117110627212.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117110627212.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117110821318.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117110821318.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117111129920.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117111129920.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117111427977.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117111427977.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117111801525.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117111801525.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117112041105.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117112041105.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117112317607.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117112317607.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117112552045.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117112552045.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117112841044.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117112841044.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117113209056.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117113209056.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117115810781.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117115810781.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117142356456.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117142356456.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117142513169.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117142513169.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117143053996.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117143053996.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117144641976.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117144641976.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117144851623.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117144851623.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117145447991.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117145447991.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117145627091.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117145627091.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117145854816.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117145854816.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117150433720.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117150433720.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117150625499.jpeg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117150625499.jpeg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117151756994.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117151756994.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\01\\17\\20240117153354863.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\01\\17\\20240117153354863.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\02\\19\\20240219142509162.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\02\\19\\20240219142509162.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\02\\19\\20240219142742000.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\02\\19\\20240219142742000.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\02\\19\\20240219143520523.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\02\\19\\20240219143520523.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\02\\20\\20240220162315330.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\02\\20\\20240220162315330.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\02\\20\\20240220171555901.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\02\\20\\20240220171555901.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\02\\20\\20240220171701051.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\02\\20\\20240220171701051.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\02\\20\\20240220172155672.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\02\\20\\20240220172155672.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\02\\20\\20240220172413578.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\02\\20\\20240220172413578.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\02\\20\\20240220172627099.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\02\\20\\20240220172627099.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\02\\20\\20240220172819488.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\02\\20\\20240220172819488.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\Uploader\\2024\\02\\20\\20240220175009202.jpg",
+      "PackagePath": "staticwebassets\\Uploader\\2024\\02\\20\\20240220175009202.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\css\\TopStyle.css",
+      "PackagePath": "staticwebassets\\css\\TopStyle.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\css\\cwcalendar.css",
+      "PackagePath": "staticwebassets\\css\\cwcalendar.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\css\\elementui.css",
+      "PackagePath": "staticwebassets\\css\\elementui.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\css\\starCss.css",
+      "PackagePath": "staticwebassets\\css\\starCss.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\css\\table.css",
+      "PackagePath": "staticwebassets\\css\\table.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\11041R35400-19.jpg",
+      "PackagePath": "staticwebassets\\images\\11041R35400-19.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\2.JPG",
+      "PackagePath": "staticwebassets\\images\\2.JPG"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\2003122615534015613.jpg",
+      "PackagePath": "staticwebassets\\images\\2003122615534015613.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\20120526002225111.png",
+      "PackagePath": "staticwebassets\\images\\20120526002225111.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\NodeImg0.gif",
+      "PackagePath": "staticwebassets\\images\\NodeImg0.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\NodeImg1.gif",
+      "PackagePath": "staticwebassets\\images\\NodeImg1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\NodeImg2.gif",
+      "PackagePath": "staticwebassets\\images\\NodeImg2.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\bb.webp",
+      "PackagePath": "staticwebassets\\images\\bb.webp"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\bg_lft.jpg",
+      "PackagePath": "staticwebassets\\images\\bg_lft.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\bg_s.jpg",
+      "PackagePath": "staticwebassets\\images\\bg_s.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\bg_w.jpg",
+      "PackagePath": "staticwebassets\\images\\bg_w.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\blank.gif",
+      "PackagePath": "staticwebassets\\images\\blank.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\bt_del.gif",
+      "PackagePath": "staticwebassets\\images\\bt_del.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\bt_edit.gif",
+      "PackagePath": "staticwebassets\\images\\bt_edit.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\e_maximize.gif",
+      "PackagePath": "staticwebassets\\images\\e_maximize.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\e_restore.gif",
+      "PackagePath": "staticwebassets\\images\\e_restore.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\folder.gif",
+      "PackagePath": "staticwebassets\\images\\folder.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\folder1.gif",
+      "PackagePath": "staticwebassets\\images\\folder1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\foot-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\foot-bg.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\gg.webp",
+      "PackagePath": "staticwebassets\\images\\gg.webp"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\go.bmp",
+      "PackagePath": "staticwebassets\\images\\go.bmp"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\green.swf",
+      "PackagePath": "staticwebassets\\images\\green.swf"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\bonus.gif",
+      "PackagePath": "staticwebassets\\images\\images\\bonus.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\bonus1.gif",
+      "PackagePath": "staticwebassets\\images\\images\\bonus1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\config.gif",
+      "PackagePath": "staticwebassets\\images\\images\\config.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\config1.gif",
+      "PackagePath": "staticwebassets\\images\\images\\config1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\engage.gif",
+      "PackagePath": "staticwebassets\\images\\images\\engage.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\engage1.gif",
+      "PackagePath": "staticwebassets\\images\\images\\engage1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\export.gif",
+      "PackagePath": "staticwebassets\\images\\images\\export.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\export1.gif",
+      "PackagePath": "staticwebassets\\images\\images\\export1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\file.gif",
+      "PackagePath": "staticwebassets\\images\\images\\file.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\file1.gif",
+      "PackagePath": "staticwebassets\\images\\images\\file1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\helpProgram.gif",
+      "PackagePath": "staticwebassets\\images\\images\\helpProgram.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\helpProgram1.gif",
+      "PackagePath": "staticwebassets\\images\\images\\helpProgram1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\major_change.gif",
+      "PackagePath": "staticwebassets\\images\\images\\major_change.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\major_change1.gif",
+      "PackagePath": "staticwebassets\\images\\images\\major_change1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\bonus.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\bonus.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\bonus_check_list.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\bonus_check_list.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\bonus_query_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\bonus_query_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\bonus_register_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\bonus_register_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_engage.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_engage.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_engage_firstKind.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_engage_firstKind.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_engage_secondKind.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_engage_secondKind.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_file.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_file.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_file_firstKind.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_file_firstKind.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_file_majorFirstKind.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_file_majorFirstKind.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_file_majorSecondKind.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_file_majorSecondKind.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_file_publicSetup.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_file_publicSetup.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_file_secondKind.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_file_secondKind.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_file_thirdKind.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_file_thirdKind.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_file_title.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_file_title.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_key.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_key.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_key_key.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_key_key.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_salary.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_salary.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_salary_itemName.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_salary_itemName.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_salary_orderSaleBonus.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_salary_orderSaleBonus.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_salary_payType.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_salary_payType.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\config_salary_retailSaleBonus.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\config_salary_retailSaleBonus.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_interview.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_interview.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_interview_check_list.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_interview_check_list.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_interview_register_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_interview_register_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_major_release.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_major_release.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_major_release_change_list.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_major_release_change_list.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_major_release_query_list.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_major_release_query_list.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_major_release_register.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_major_release_register.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_pass.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_pass.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_pass_check_list.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_pass_check_list.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_pass_query_list.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_pass_query_list.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_pass_register_list.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_pass_register_list.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_questiones.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_questiones.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_questiones_change_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_questiones_change_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_questiones_query_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_questiones_query_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_questiones_register.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_questiones_register.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_resume.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_resume.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_resume_check_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_resume_check_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_resume_query_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_resume_query_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_resume_register.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_resume_register.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_test.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_test.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_test_answerCheck_list.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_test_answerCheck_list.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_test_answerRegister.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_test_answerRegister.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_test_pointQuery_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_test_pointQuery_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\engage_test_questionesRegister_list.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\engage_test_questionesRegister_list.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\export.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\export.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\export_excel.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\export_excel.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\export_pdf.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\export_pdf.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\export_xml.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\export_xml.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\file.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\file.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\file_change_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\file_change_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\file_check_list.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\file_check_list.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\file_delete.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\file_delete.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\file_delete_delete_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\file_delete_delete_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\file_delete_realDelete_list.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\file_delete_realDelete_list.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\file_delete_recovery_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\file_delete_recovery_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\file_query_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\file_query_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\file_register.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\file_register.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\helpProgram.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\helpProgram.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\helpProgram1.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\helpProgram1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\major_change.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\major_change.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\major_change1.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\major_change1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\major_change_check_list.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\major_change_check_list.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\major_change_query_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\major_change_query_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\major_change_register_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\major_change_register_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\nseererp_hr.jpg",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\nseererp_hr.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\salary.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\salary.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\salary1.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\salary1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\salary_check_list.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\salary_check_list.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\salary_query_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\salary_query_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\salary_register_unit_list.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\salary_register_unit_list.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\salary_standard.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\salary_standard.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\salary_standard_change_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\salary_standard_change_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\salary_standard_check_list.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\salary_standard_check_list.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\salary_standard_query_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\salary_standard_query_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\salary_standard_register.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\salary_standard_register.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\training.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\training.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\training_check_list.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\training_check_list.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\training_query_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\training_query_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\mod_image\\training_register_locate.gif",
+      "PackagePath": "staticwebassets\\images\\images\\mod_image\\training_register_locate.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\nseererp_hr.jpg",
+      "PackagePath": "staticwebassets\\images\\images\\nseererp_hr.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\salary.gif",
+      "PackagePath": "staticwebassets\\images\\images\\salary.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\salary1.gif",
+      "PackagePath": "staticwebassets\\images\\images\\salary1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\salary_standard.gif",
+      "PackagePath": "staticwebassets\\images\\images\\salary_standard.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\salary_standard1.gif",
+      "PackagePath": "staticwebassets\\images\\images\\salary_standard1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\training.gif",
+      "PackagePath": "staticwebassets\\images\\images\\training.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\images\\training1.gif",
+      "PackagePath": "staticwebassets\\images\\images\\training1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\jt0.gif",
+      "PackagePath": "staticwebassets\\images\\jt0.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\kb.jpg",
+      "PackagePath": "staticwebassets\\images\\kb.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\login_1.gif",
+      "PackagePath": "staticwebassets\\images\\login_1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\login_11.gif",
+      "PackagePath": "staticwebassets\\images\\login_11.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\login_1_1.jpg",
+      "PackagePath": "staticwebassets\\images\\login_1_1.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\login_2.jpg",
+      "PackagePath": "staticwebassets\\images\\login_2.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\login_22.jpg",
+      "PackagePath": "staticwebassets\\images\\login_22.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\login_2_1.jpg",
+      "PackagePath": "staticwebassets\\images\\login_2_1.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\login_3.jpg",
+      "PackagePath": "staticwebassets\\images\\login_3.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\login_33.jpg",
+      "PackagePath": "staticwebassets\\images\\login_33.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\login_3_1.jpg",
+      "PackagePath": "staticwebassets\\images\\login_3_1.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\login_button.gif",
+      "PackagePath": "staticwebassets\\images\\login_button.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\menu_bg.gif",
+      "PackagePath": "staticwebassets\\images\\menu_bg.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\menu_bg1.gif",
+      "PackagePath": "staticwebassets\\images\\menu_bg1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\menu_bg2.gif",
+      "PackagePath": "staticwebassets\\images\\menu_bg2.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\menu_bg3.gif",
+      "PackagePath": "staticwebassets\\images\\menu_bg3.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\menu_bgs.gif",
+      "PackagePath": "staticwebassets\\images\\menu_bgs.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\menu_topline.gif",
+      "PackagePath": "staticwebassets\\images\\menu_topline.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\minus.gif",
+      "PackagePath": "staticwebassets\\images\\minus.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\minus33.gif",
+      "PackagePath": "staticwebassets\\images\\minus33.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\na2.jpg",
+      "PackagePath": "staticwebassets\\images\\na2.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\nk2.gif",
+      "PackagePath": "staticwebassets\\images\\nk2.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\nn.jpg",
+      "PackagePath": "staticwebassets\\images\\nn.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\nseererp11.jpg",
+      "PackagePath": "staticwebassets\\images\\nseererp11.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\onepice.jpg",
+      "PackagePath": "staticwebassets\\images\\onepice.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\plus.gif",
+      "PackagePath": "staticwebassets\\images\\plus.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\plus22.gif",
+      "PackagePath": "staticwebassets\\images\\plus22.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\regular.jpg",
+      "PackagePath": "staticwebassets\\images\\regular.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\return.jpg",
+      "PackagePath": "staticwebassets\\images\\return.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\school.jpg",
+      "PackagePath": "staticwebassets\\images\\school.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\security.gif",
+      "PackagePath": "staticwebassets\\images\\security.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\security1.gif",
+      "PackagePath": "staticwebassets\\images\\security1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\sheet.gif",
+      "PackagePath": "staticwebassets\\images\\sheet.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\spacer.gif",
+      "PackagePath": "staticwebassets\\images\\spacer.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\t.jpg",
+      "PackagePath": "staticwebassets\\images\\t.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tab_inactive.jpg",
+      "PackagePath": "staticwebassets\\images\\tab_inactive.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tab_inactive1.jpg",
+      "PackagePath": "staticwebassets\\images\\tab_inactive1.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tableftF.gif",
+      "PackagePath": "staticwebassets\\images\\tableftF.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tableftJ.gif",
+      "PackagePath": "staticwebassets\\images\\tableftJ.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tabrightF.gif",
+      "PackagePath": "staticwebassets\\images\\tabrightF.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tabrightJ.gif",
+      "PackagePath": "staticwebassets\\images\\tabrightJ.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\top-unit.gif",
+      "PackagePath": "staticwebassets\\images\\top-unit.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\top-unit_副本.jpg",
+      "PackagePath": "staticwebassets\\images\\top-unit_副本.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tree_arrow_close.gif",
+      "PackagePath": "staticwebassets\\images\\tree_arrow_close.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tree_arrow_open.gif",
+      "PackagePath": "staticwebassets\\images\\tree_arrow_open.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tree_arrow_over.gif",
+      "PackagePath": "staticwebassets\\images\\tree_arrow_over.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tree_close.gif",
+      "PackagePath": "staticwebassets\\images\\tree_close.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tree_icon_cd.gif",
+      "PackagePath": "staticwebassets\\images\\tree_icon_cd.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tree_icon_cdrom.gif",
+      "PackagePath": "staticwebassets\\images\\tree_icon_cdrom.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tree_icon_computer.gif",
+      "PackagePath": "staticwebassets\\images\\tree_icon_computer.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tree_icon_driver.gif",
+      "PackagePath": "staticwebassets\\images\\tree_icon_driver.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tree_icon_file.gif",
+      "PackagePath": "staticwebassets\\images\\tree_icon_file.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tree_icon_folder.gif",
+      "PackagePath": "staticwebassets\\images\\tree_icon_folder.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tree_icon_folder_close.gif",
+      "PackagePath": "staticwebassets\\images\\tree_icon_folder_close.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tree_icon_folder_open.gif",
+      "PackagePath": "staticwebassets\\images\\tree_icon_folder_open.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tree_icon_net.gif",
+      "PackagePath": "staticwebassets\\images\\tree_icon_net.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tree_icon_recycler.gif",
+      "PackagePath": "staticwebassets\\images\\tree_icon_recycler.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tree_open.gif",
+      "PackagePath": "staticwebassets\\images\\tree_open.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_01.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_01.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_05.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_05.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_08.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_08.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_10.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_10.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_11.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_11.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_13.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_13.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_14.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_14.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_15.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_15.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_16.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_16.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_18.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_18.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_19.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_19.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_21.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_21.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_22.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_22.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_23.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_23.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_24.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_24.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_26.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_26.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_28.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_28.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_29.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_29.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_31.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_31.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_32.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_32.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_33.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_33.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\tuopu_34.gif",
+      "PackagePath": "staticwebassets\\images\\tuopu_34.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\images\\wallper-02.jpg",
+      "PackagePath": "staticwebassets\\images\\wallper-02.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\calendar-ch.js",
+      "PackagePath": "staticwebassets\\js\\calendar-ch.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\calendar\\cal.js",
+      "PackagePath": "staticwebassets\\js\\calendar\\cal.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\calendar\\calendar-win2k-cold-1.css",
+      "PackagePath": "staticwebassets\\js\\calendar\\calendar-win2k-cold-1.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\comm\\comm.js",
+      "PackagePath": "staticwebassets\\js\\comm\\comm.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\comm\\list.js",
+      "PackagePath": "staticwebassets\\js\\comm\\list.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\comm\\select.js",
+      "PackagePath": "staticwebassets\\js\\comm\\select.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\comm\\time.js",
+      "PackagePath": "staticwebassets\\js\\comm\\time.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\jquery.easyui.min.js",
+      "PackagePath": "staticwebassets\\js\\easyui\\jquery.easyui.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\accordion.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\accordion.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\calendar.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\calendar.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\combo.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\combo.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\combobox.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\combobox.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\datagrid.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\datagrid.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\datebox.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\datebox.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\dialog.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\dialog.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\easyui.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\easyui.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\button_a_bg.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\button_a_bg.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\button_plain_hover.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\button_plain_hover.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\button_span_bg.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\button_span_bg.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\calendar_nextmonth.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\calendar_nextmonth.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\calendar_nextyear.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\calendar_nextyear.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\calendar_prevmonth.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\calendar_prevmonth.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\calendar_prevyear.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\calendar_prevyear.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\combo_arrow.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\combo_arrow.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\datagrid_header_bg.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\datagrid_header_bg.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\datagrid_sort_asc.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\datagrid_sort_asc.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\datagrid_sort_desc.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\datagrid_sort_desc.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\datagrid_title_bg.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\datagrid_title_bg.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\layout_button_down.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\layout_button_down.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\layout_button_left.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\layout_button_left.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\layout_button_right.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\layout_button_right.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\layout_button_up.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\layout_button_up.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\menu.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\menu.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\menu_downarrow.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\menu_downarrow.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\menu_rightarrow.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\menu_rightarrow.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\menu_sep.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\menu_sep.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\menu_split_downarrow.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\menu_split_downarrow.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\messager_error.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\messager_error.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\messager_info.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\messager_info.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\messager_question.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\messager_question.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\messager_warning.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\messager_warning.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\pagination_first.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\pagination_first.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\pagination_last.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\pagination_last.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\pagination_load.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\pagination_load.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\pagination_loading.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\pagination_loading.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\pagination_next.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\pagination_next.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\pagination_prev.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\pagination_prev.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\panel_loading.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\panel_loading.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\panel_title.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\panel_title.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\panel_tool_collapse.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\panel_tool_collapse.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\panel_tool_expand.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\panel_tool_expand.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\panel_tools.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\panel_tools.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\spinner_arrow_down.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\spinner_arrow_down.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\spinner_arrow_up.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\spinner_arrow_up.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\tabs_active.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\tabs_active.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\tabs_close.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\tabs_close.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\tabs_enabled.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\tabs_enabled.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\tabs_leftarrow.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\tabs_leftarrow.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\tabs_rightarrow.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\tabs_rightarrow.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\tree_arrows.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\tree_arrows.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\tree_checkbox_0.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\tree_checkbox_0.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\tree_checkbox_1.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\tree_checkbox_1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\tree_checkbox_2.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\tree_checkbox_2.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\tree_file.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\tree_file.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\tree_folder.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\tree_folder.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\tree_folder_open.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\tree_folder_open.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\tree_loading.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\tree_loading.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\validatebox_pointer.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\validatebox_pointer.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\images\\validatebox_warning.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\images\\validatebox_warning.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\layout.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\layout.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\linkbutton.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\linkbutton.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\menu.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\menu.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\menubutton.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\menubutton.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\messager.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\messager.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\pagination.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\pagination.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\panel.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\panel.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\spinner.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\spinner.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\splitbutton.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\splitbutton.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\tabs.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\tabs.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\tree.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\tree.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\validatebox.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\validatebox.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\default\\window.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\default\\window.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\accordion.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\accordion.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\calendar.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\calendar.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\combo.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\combo.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\combobox.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\combobox.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\datagrid.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\datagrid.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\datebox.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\datebox.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\dialog.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\dialog.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\easyui.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\easyui.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\button_a_bg.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\button_a_bg.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\button_plain_hover.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\button_plain_hover.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\button_span_bg.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\button_span_bg.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\calendar_nextmonth.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\calendar_nextmonth.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\calendar_nextyear.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\calendar_nextyear.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\calendar_prevmonth.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\calendar_prevmonth.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\calendar_prevyear.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\calendar_prevyear.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\combo_arrow.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\combo_arrow.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\datagrid_header_bg.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\datagrid_header_bg.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\datagrid_sort_asc.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\datagrid_sort_asc.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\datagrid_sort_desc.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\datagrid_sort_desc.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\datagrid_title_bg.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\datagrid_title_bg.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\layout_button_down.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\layout_button_down.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\layout_button_left.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\layout_button_left.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\layout_button_right.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\layout_button_right.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\layout_button_up.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\layout_button_up.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\menu.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\menu.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\menu_downarrow.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\menu_downarrow.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\menu_rightarrow.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\menu_rightarrow.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\menu_sep.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\menu_sep.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\menu_split_downarrow.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\menu_split_downarrow.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\messager_error.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\messager_error.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\messager_info.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\messager_info.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\messager_question.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\messager_question.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\messager_warning.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\messager_warning.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\pagination_first.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\pagination_first.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\pagination_last.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\pagination_last.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\pagination_load.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\pagination_load.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\pagination_loading.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\pagination_loading.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\pagination_next.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\pagination_next.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\pagination_prev.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\pagination_prev.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\panel_loading.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\panel_loading.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\panel_title.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\panel_title.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\panel_tool_collapse.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\panel_tool_collapse.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\panel_tool_expand.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\panel_tool_expand.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\panel_tools.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\panel_tools.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\spinner_arrow_down.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\spinner_arrow_down.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\spinner_arrow_up.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\spinner_arrow_up.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\tabs_close.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\tabs_close.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\tabs_enabled.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\tabs_enabled.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\tabs_leftarrow.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\tabs_leftarrow.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\tabs_rightarrow.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\tabs_rightarrow.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\tree_arrows.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\tree_arrows.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\tree_checkbox_0.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\tree_checkbox_0.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\tree_checkbox_1.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\tree_checkbox_1.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\tree_checkbox_2.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\tree_checkbox_2.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\tree_file.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\tree_file.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\tree_folder.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\tree_folder.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\tree_folder_open.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\tree_folder_open.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\tree_loading.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\tree_loading.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\validatebox_pointer.gif",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\validatebox_pointer.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\images\\validatebox_warning.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\images\\validatebox_warning.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\layout.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\layout.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\linkbutton.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\linkbutton.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\menu.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\menu.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\menubutton.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\menubutton.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\messager.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\messager.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\pagination.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\pagination.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\panel.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\panel.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\spinner.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\spinner.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\splitbutton.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\splitbutton.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\tabs.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\tabs.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\tree.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\tree.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\validatebox.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\validatebox.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\gray\\window.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\gray\\window.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\icon.css",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\icon.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\icons\\back.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\icons\\back.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\icons\\cancel.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\icons\\cancel.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\icons\\cut.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\icons\\cut.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\icons\\edit_add.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\icons\\edit_add.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\icons\\edit_remove.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\icons\\edit_remove.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\icons\\filesave.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\icons\\filesave.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\icons\\help.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\icons\\help.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\icons\\no.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\icons\\no.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\icons\\ok.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\icons\\ok.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\icons\\pencil.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\icons\\pencil.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\icons\\print.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\icons\\print.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\icons\\redo.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\icons\\redo.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\icons\\reload.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\icons\\reload.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\icons\\search.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\icons\\search.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\easyui\\themes\\icons\\undo.png",
+      "PackagePath": "staticwebassets\\js\\easyui\\themes\\icons\\undo.png"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\echarts.js",
+      "PackagePath": "staticwebassets\\js\\echarts.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\elementui.js",
+      "PackagePath": "staticwebassets\\js\\elementui.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\human_check.js",
+      "PackagePath": "staticwebassets\\js\\human_check.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\human_input_check.js",
+      "PackagePath": "staticwebassets\\js\\human_input_check.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\human_register.js",
+      "PackagePath": "staticwebassets\\js\\human_register.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\input_control\\Check.js",
+      "PackagePath": "staticwebassets\\js\\input_control\\Check.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\input_control\\validation-config.dtd",
+      "PackagePath": "staticwebassets\\js\\input_control\\validation-config.dtd"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\input_control\\validation-config.xml",
+      "PackagePath": "staticwebassets\\js\\input_control\\validation-config.xml"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\input_control\\validation-framework.js",
+      "PackagePath": "staticwebassets\\js\\input_control\\validation-framework.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\jquery-1.7.2.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.7.2.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\jquery.easyui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.easyui.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\jquery.messager.js",
+      "PackagePath": "staticwebassets\\js\\jquery.messager.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\locate.js",
+      "PackagePath": "staticwebassets\\js\\locate.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\__utm.js",
+      "PackagePath": "staticwebassets\\js\\media\\__utm.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\_images\\landing_nav.gif",
+      "PackagePath": "staticwebassets\\js\\media\\_images\\landing_nav.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\_images\\landing_nav_sub.gif",
+      "PackagePath": "staticwebassets\\js\\media\\_images\\landing_nav_sub.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\_images\\x.gif",
+      "PackagePath": "staticwebassets\\js\\media\\_images\\x.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\about.jpg",
+      "PackagePath": "staticwebassets\\js\\media\\about.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\cj.jpg",
+      "PackagePath": "staticwebassets\\js\\media\\cj.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\dm.jpg",
+      "PackagePath": "staticwebassets\\js\\media\\dm.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\font.jpg",
+      "PackagePath": "staticwebassets\\js\\media\\font.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\homepage.gif",
+      "PackagePath": "staticwebassets\\js\\media\\homepage.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\homepage.jpg",
+      "PackagePath": "staticwebassets\\js\\media\\homepage.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\left.gif",
+      "PackagePath": "staticwebassets\\js\\media\\left.gif"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\mt_dropdownC.js",
+      "PackagePath": "staticwebassets\\js\\media\\mt_dropdownC.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\mt_dropdown_initialize.js",
+      "PackagePath": "staticwebassets\\js\\media\\mt_dropdown_initialize.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\mt_script.js",
+      "PackagePath": "staticwebassets\\js\\media\\mt_script.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\mt_style.css",
+      "PackagePath": "staticwebassets\\js\\media\\mt_style.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\net.jpg",
+      "PackagePath": "staticwebassets\\js\\media\\net.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\opensrs.js",
+      "PackagePath": "staticwebassets\\js\\media\\opensrs.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\soft.jpg",
+      "PackagePath": "staticwebassets\\js\\media\\soft.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\sucai.jpg",
+      "PackagePath": "staticwebassets\\js\\media\\sucai.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\text.jpg",
+      "PackagePath": "staticwebassets\\js\\media\\text.jpg"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\media\\trk_fmh_1.js",
+      "PackagePath": "staticwebassets\\js\\media\\trk_fmh_1.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\print_page\\testPrint2.html",
+      "PackagePath": "staticwebassets\\js\\print_page\\testPrint2.html"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\right_add.js",
+      "PackagePath": "staticwebassets\\js\\right_add.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\right_list_information.js",
+      "PackagePath": "staticwebassets\\js\\right_list_information.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\select.js",
+      "PackagePath": "staticwebassets\\js\\select.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\selectAll.js",
+      "PackagePath": "staticwebassets\\js\\selectAll.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\table\\move.htm",
+      "PackagePath": "staticwebassets\\js\\table\\move.htm"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\table\\movetable.js",
+      "PackagePath": "staticwebassets\\js\\table\\movetable.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\table\\onlineEditTable.css",
+      "PackagePath": "staticwebassets\\js\\table\\onlineEditTable.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\table\\onlineEditTable.js",
+      "PackagePath": "staticwebassets\\js\\table\\onlineEditTable.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\time.js",
+      "PackagePath": "staticwebassets\\js\\time.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\tree\\event.js",
+      "PackagePath": "staticwebassets\\js\\tree\\event.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\tree\\tree.css",
+      "PackagePath": "staticwebassets\\js\\tree\\tree.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\updateGO.js",
+      "PackagePath": "staticwebassets\\js\\updateGO.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\user_add.js",
+      "PackagePath": "staticwebassets\\js\\user_add.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\winopen\\winopen.js",
+      "PackagePath": "staticwebassets\\js\\winopen\\winopen.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\winopen\\winopenm.js",
+      "PackagePath": "staticwebassets\\js\\winopen\\winopenm.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\winopen\\winopenn.js",
+      "PackagePath": "staticwebassets\\js\\winopen\\winopenn.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\js\\winopen\\winopens.js",
+      "PackagePath": "staticwebassets\\js\\winopen\\winopens.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\axios\\axios.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\axios.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\echarts.common.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\echarts.common.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\echarts.common.js.map",
+      "PackagePath": "staticwebassets\\lib\\echarts\\echarts.common.js.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\echarts.common.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\echarts.common.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\echarts.esm.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\echarts.esm.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\echarts.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\echarts\\echarts.esm.js.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\echarts.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\echarts.esm.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\echarts.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\echarts.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\echarts.js.map",
+      "PackagePath": "staticwebassets\\lib\\echarts\\echarts.js.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\echarts.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\echarts.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\echarts.simple.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\echarts.simple.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\echarts.simple.js.map",
+      "PackagePath": "staticwebassets\\lib\\echarts\\echarts.simple.js.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\echarts.simple.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\echarts.simple.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\extension\\bmap.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\extension\\bmap.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\extension\\bmap.js.map",
+      "PackagePath": "staticwebassets\\lib\\echarts\\extension\\bmap.js.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\extension\\bmap.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\extension\\bmap.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\extension\\dataTool.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\extension\\dataTool.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\extension\\dataTool.js.map",
+      "PackagePath": "staticwebassets\\lib\\echarts\\extension\\dataTool.js.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\extension\\dataTool.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\extension\\dataTool.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langCS-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langCS-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langCS-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langCS-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langCS.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langCS.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langCS.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langCS.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langDE-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langDE-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langDE-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langDE-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langDE.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langDE.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langDE.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langDE.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langEN-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langEN-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langEN-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langEN-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langEN.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langEN.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langEN.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langEN.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langES-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langES-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langES-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langES-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langES.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langES.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langES.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langES.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langFI-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langFI-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langFI-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langFI-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langFI.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langFI.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langFI.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langFI.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langFR-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langFR-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langFR-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langFR-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langFR.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langFR.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langFR.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langFR.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langHU-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langHU-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langHU-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langHU-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langHU.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langHU.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langHU.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langHU.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langIT-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langIT-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langIT-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langIT-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langIT.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langIT.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langIT.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langIT.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langJA-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langJA-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langJA-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langJA-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langJA.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langJA.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langJA.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langJA.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langKO-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langKO-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langKO-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langKO-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langKO.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langKO.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langKO.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langKO.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langPL-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langPL-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langPL-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langPL-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langPL.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langPL.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langPL.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langPL.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langPT-br-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langPT-br-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langPT-br-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langPT-br-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langPT-br.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langPT-br.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langPT-br.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langPT-br.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langRO-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langRO-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langRO-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langRO-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langRO.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langRO.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langRO.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langRO.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langRU-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langRU-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langRU-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langRU-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langRU.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langRU.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langRU.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langRU.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langSI-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langSI-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langSI-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langSI-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langSI.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langSI.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langSI.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langSI.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langTH-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langTH-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langTH-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langTH-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langTH.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langTH.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langTH.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langTH.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langTR-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langTR-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langTR-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langTR-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langTR.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langTR.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langTR.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langTR.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langUK-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langUK-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langUK-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langUK-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langUK.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langUK.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langUK.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langUK.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langVI-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langVI-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langVI-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langVI-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langVI.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langVI.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langVI.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langVI.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langZH-obj.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langZH-obj.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langZH-obj.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langZH-obj.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langZH.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langZH.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\i18n\\langZH.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\i18n\\langZH.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\azul.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\azul.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\azul.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\azul.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\bee-inspired.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\bee-inspired.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\bee-inspired.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\bee-inspired.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\blue.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\blue.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\blue.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\blue.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\caravan.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\caravan.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\caravan.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\caravan.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\carp.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\carp.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\carp.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\carp.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\cool.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\cool.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\cool.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\cool.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\dark-blue.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\dark-blue.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\dark-blue.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\dark-blue.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\dark-bold.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\dark-bold.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\dark-bold.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\dark-bold.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\dark-digerati.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\dark-digerati.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\dark-digerati.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\dark-digerati.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\dark-fresh-cut.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\dark-fresh-cut.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\dark-fresh-cut.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\dark-fresh-cut.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\dark-mushroom.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\dark-mushroom.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\dark-mushroom.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\dark-mushroom.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\dark.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\dark.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\dark.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\dark.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\eduardo.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\eduardo.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\eduardo.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\eduardo.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\forest.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\forest.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\forest.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\forest.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\fresh-cut.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\fresh-cut.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\fresh-cut.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\fresh-cut.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\fruit.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\fruit.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\fruit.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\fruit.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\gray.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\gray.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\gray.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\gray.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\green.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\green.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\green.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\green.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\helianthus.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\helianthus.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\helianthus.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\helianthus.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\infographic.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\infographic.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\infographic.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\infographic.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\inspired.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\inspired.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\inspired.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\inspired.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\jazz.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\jazz.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\jazz.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\jazz.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\london.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\london.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\london.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\london.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\macarons.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\macarons.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\macarons.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\macarons.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\macarons2.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\macarons2.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\macarons2.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\macarons2.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\mint.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\mint.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\mint.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\mint.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\red-velvet.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\red-velvet.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\red-velvet.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\red-velvet.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\red.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\red.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\red.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\red.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\roma.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\roma.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\roma.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\roma.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\royal.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\royal.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\royal.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\royal.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\sakura.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\sakura.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\sakura.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\sakura.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\shine.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\shine.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\shine.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\shine.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\tech-blue.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\tech-blue.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\tech-blue.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\tech-blue.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\vintage.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\vintage.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\echarts\\theme\\vintage.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\theme\\vintage.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\index.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\index.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\index.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\index.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\af-ZA.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\af-ZA.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\af-ZA.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\af-ZA.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ar.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ar.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ar.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\az.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\az.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\az.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\az.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\bg.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\bg.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\bg.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\bg.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\bn.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\bn.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\bn.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\bn.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ca.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ca.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ca.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ca.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\cs-CZ.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\cs-CZ.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\cs-CZ.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\cs-CZ.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\da.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\da.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\da.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\da.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\de.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\de.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\de.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\de.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ee.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ee.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ee.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ee.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\el.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\el.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\el.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\el.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\en.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\en.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\en.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\en.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\eo.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\eo.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\eo.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\eo.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\es.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\es.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\es.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\es.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\eu.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\eu.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\eu.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\eu.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\fa.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\fa.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\fa.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\fa.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\fi.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\fi.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\fi.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\fi.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\fr.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\fr.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\fr.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\fr.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\he.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\he.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\he.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\he.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\hr.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\hr.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\hr.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\hr.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\hu.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\hu.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\hu.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\hu.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\hy-AM.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\hy-AM.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\hy-AM.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\hy-AM.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\id.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\id.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\id.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\id.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\is.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\is.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\is.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\is.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\it.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\it.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\it.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\it.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ja.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ja.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ja.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ja.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\kg.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\kg.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\kg.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\kg.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\km.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\km.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\km.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\km.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ko.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ko.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ko.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ko.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ku.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ku.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ku.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ku.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\kz.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\kz.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\kz.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\kz.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\lt.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\lt.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\lt.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\lt.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\lv.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\lv.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\lv.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\lv.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\mn.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\mn.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\mn.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\mn.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ms.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ms.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ms.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ms.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\nb-NO.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\nb-NO.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\nb-NO.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\nb-NO.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\nl.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\nl.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\nl.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\nl.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\pl.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\pl.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\pl.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\pl.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\pt-br.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\pt-br.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\pt-br.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\pt-br.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\pt.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\pt.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\pt.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\pt.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ro.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ro.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ro.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ro.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ru-RU.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ru-RU.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ru-RU.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ru-RU.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\si.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\si.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\si.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\si.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\sk.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\sk.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\sk.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\sk.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\sl.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\sl.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\sl.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\sl.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\sr-Latn.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\sr-Latn.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\sr-Latn.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\sr-Latn.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\sr.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\sr.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\sr.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\sr.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\sv-SE.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\sv-SE.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\sv-SE.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\sv-SE.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\sw.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\sw.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\sw.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\sw.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ta.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ta.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ta.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ta.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\th.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\th.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\th.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\th.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\tk.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\tk.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\tk.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\tk.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\tr-TR.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\tr-TR.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\tr-TR.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\tr-TR.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ua.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ua.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ua.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ua.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ug-CN.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ug-CN.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\ug-CN.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\ug-CN.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\uz-UZ.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\uz-UZ.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\uz-UZ.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\uz-UZ.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\vi.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\vi.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\vi.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\vi.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\zh-CN.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\zh-CN.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\zh-CN.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\zh-CN.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\zh-TW.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\zh-TW.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\locale\\zh-TW.min.js",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\locale\\zh-TW.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\theme-chalk\\fonts\\element-icons.ttf",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\theme-chalk\\fonts\\element-icons.ttf"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\theme-chalk\\fonts\\element-icons.woff",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\theme-chalk\\fonts\\element-icons.woff"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\theme-chalk\\index.css",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\theme-chalk\\index.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\element-ui\\theme-chalk\\index.min.css",
+      "PackagePath": "staticwebassets\\lib\\element-ui\\theme-chalk\\index.min.css"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\lib\\vue\\vue.js",
+      "PackagePath": "staticwebassets\\lib\\vue\\vue.js"
+    },
+    {
+      "Id": "E:\\.Net192\\HRTest\\HRUI\\wwwroot\\videos\\yuanshen.mp4",
+      "PackagePath": "staticwebassets\\videos\\yuanshen.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.HRUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.HRUI.props",
+      "PackagePath": "build\\HRUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.HRUI.props",
+      "PackagePath": "buildMultiTargeting\\HRUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.HRUI.props",
+      "PackagePath": "buildTransitive\\HRUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

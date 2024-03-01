@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div id="Check_success">
+<form name="humanfileForm" method="post" action="">
+	<table width="100%">
+		<tr>
+			<td>
+				<font color="black">您正在做的业务是:人力资源--调动管理--调动审核</font>
+			</td>
+		</tr>
+		<tr>
+
+			<td width="49%"> 复核成功！</td>
+			<td width="51%" align="right">
+				<input type="button"
+					v-on:click="updatePage()"
+						class="btn btn-info"
+						value="返回" />
+			</td>
+		</tr>
+	</table>
+	</form>
+</div>
+<script>
+	new Vue({
+		el: '#Check_success',
+		data: {
+
+		},
+		methods: {
+			updatePage() {
+				axios.get("@Url.Action("Check_list","HFDs")")
+					.then(res => {
+						$("#main-content").html(res.data);
+					})
+			},
+		},
+		mounted() {
+
+		}
+	})
+</script>

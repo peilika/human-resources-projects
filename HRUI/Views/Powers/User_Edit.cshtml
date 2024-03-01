@@ -1,0 +1,126 @@
+﻿@using EFCore.Models;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	var userEditSelect = ViewData["User_EditSelect"] as Users;
+	var uRoles = ViewData["Roles"] as Roles;
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<script>
+		function getSelectedValue() {
+			var selectElement = document.getElementById("mySelect");
+			var selectedValue = selectElement.options[selectElement.selectedIndex].value;
+			document.getElementById("RolesID").value = selectedValue;
+		}
+	</script>
+
+</head>
+<body>
+	<div id="User_Edit">
+	<form id="submitForm">
+		<table width="100%">
+			<tr>
+				<td>
+					<font color="black">您正在做的业务是：人力资源--权限管理--编辑用户</font>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">
+					<input type="submit" value="保存" class="BUTTON_STYLE1" id="submitButton" data-url="/Powers/User_EditUpdate" onclick="getSelectedValue()" />
+
+					<input type="button" value="返回" class="BUTTON_STYLE1 updatePage" data-url="/Powers/User_List">
+				</td>
+			</tr>
+		</table>
+		<table width="100%" border="1" cellpadding=3 cellspacing=1
+			   bordercolorlight=#848284 bordercolordark=#eeeeee
+			   class="TABLE_STYLE1">
+			<tr>
+				<td class="TD_STYLE1">用户名称</td>
+				<td class="TD_STYLE2">
+					<el-input placeholder="请输入用户名" v-model="UName" style="width: 200px;"></el-input>
+					<input type="hidden" v-model="UName" name="UName" />
+
+					<input type="hidden" value="@userEditSelect.UId" id="UId" name="UId"/>
+					<input type="hidden" value="@userEditSelect.UId" id="UserRolesID" name="UserRolesID" />
+					<input type="hidden" value="@userEditSelect.UId" id="UserID" name="UserID" />
+					<input type="hidden" value="" id="RolesID" name="RolesID" />
+				</td>
+				<td class="TD_STYLE1">用户密码</td>
+				<td class="TD_STYLE2">
+					<el-input placeholder="请输入密码" v-model="UPassWord" show-password style="width: 200px;"></el-input>
+					<input type="hidden" v-model="UPassWord" name="UPassWord" />
+				</td>
+			</tr>
+			<tr>
+				<td class="TD_STYLE1">真实姓名</td>
+				<td class="TD_STYLE2">
+					<el-input placeholder="请输入真实姓名" v-model="UTrueName" style="width: 200px;"></el-input>
+					<input type="hidden" v-model="UTrueName" name="UTrueName" />
+				</td>
+				<td class="TD_STYLE1">用户身份</td>
+				<td class="TD_STYLE2">
+						<el-select v-model="RolesID" placeholder="请选择角色">
+							<el-option v-for="item in RolesIDs"
+									   :key="item.rolesID"
+									   :label="item.rolesName"
+									   :value="item.rolesID">
+							</el-option>
+						</el-select>
+						<input type="hidden" v-model="RolesID" name="RolesID" />
+				</td>
+			</tr>
+		</table>    
+	</form>
+	</div>
+	<script src="~/js/updatego.js"></script>
+	<script>
+		new Vue({
+			el: '#User_Edit',
+			data: {
+				UName: "",
+				UPassWord: '',
+				UTrueName: "",
+				RolesID: "",
+				RolesIDs: []
+			},
+			mounted() {
+				axios.get("@Url.Action("GetRList","Powers")")
+					.then(res => {
+						this.RolesIDs = res.data;
+						console.log(this.RolesIDs);
+					})
+
+				var encoded = '@userEditSelect.UName';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.UName = decoded;
+
+				var encoded = '@userEditSelect.UPassWord';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.UPassWord = decoded;
+
+				var encoded = '@userEditSelect.UTrueName';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.UTrueName = decoded;
+
+				var encoded = '@uRoles.RolesName';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.RolesID = decoded;
+			}
+		})
+	</script>
+</body>
+</html>

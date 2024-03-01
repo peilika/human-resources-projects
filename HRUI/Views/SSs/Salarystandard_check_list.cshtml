@@ -1,0 +1,136 @@
+﻿@using EFCore.Models;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+	<div id="Salarystandard_check_list">
+		<form>
+			<table width="100%">
+				<tr>
+					<td>
+						<font color="black">您正在做的业务是:人力资源管理--薪酬标准管理--薪酬标准登记复核</font>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						当前等待复核的薪酬标准总数:
+						12
+						例
+					</td>
+				</tr>
+			</table>
+
+			<el-table :data="tableData"
+					  border
+					  style="width: 100%">
+				<el-table-column prop="standardId"
+								 label="薪酬标准编号"
+								 width="350">
+				</el-table-column>
+				<el-table-column prop="standardName"
+								 label="薪酬标准名称"
+								 width="150">
+				</el-table-column>
+				<el-table-column prop="designer"
+								 label="制定人"
+								 width="150">
+				</el-table-column>
+				<el-table-column prop="registTime"
+								 label="登记时间"
+								 width="200">
+				</el-table-column>
+				<el-table-column prop="salarySum"
+								 label="薪酬总额"
+								 width="150">
+				</el-table-column>
+				<el-table-column label="复 核">
+					<template slot-scope="scope">
+						<el-button v-on:click="update(scope.row)" type="primary" icon="el-icon-edit" circle></el-button>
+					</template>
+				</el-table-column>
+			</el-table>
+			<el-pagination v-on:size-change="handleSizeChange"
+						   v-on:current-change="handleCurrentChange"
+						   :current-page="pageIndex"
+						   :page-sizes="[3, 6, 8, 10]"
+						   :page-size="pageSize"
+						   layout="total, sizes, prev, pager, next, jumper"
+						   :total="dataCount">
+			</el-pagination>
+		</form>
+	</div>
+	<script>
+		new Vue({
+			el: '#Salarystandard_check_list',
+			data: {
+				pageIndex:1,
+				pageSize:3,
+				dataCount:0,
+				tableData:[],
+			},
+			methods:{
+				/**
+				 * 改变大小
+				 */
+				handleSizeChange(val) {
+					this.pageSize = val
+					this.fill();
+				},
+				/**
+				 * 改变当前页
+				 */
+				handleCurrentChange(val){
+					this.pageIndex = val
+					this.fill();
+				},
+				/**
+				 * 刷新数据
+				 */
+				fill() {
+					axios.get("@Url.Action("GetData","SSs")?pageSize="+this.pageSize+"&pageIndex="+this.pageIndex)
+						.then(res => {
+							console.log(res.data);
+							this.dataCount = res.data.dataCount;
+							this.tableData = res.data.list;
+						})
+				},
+				/**
+				 * 跳转页面
+				 */
+				update(row) {
+					console.log(row)
+					var url = "@Url.Action("Salarystandard_check","SSs")?standardId=" + row.standardId;
+					this.updateGo(url);
+				},
+				/**
+				 * 修改页面用
+				 */
+				updateGo(url){
+					axios.get(url)
+						.then(res => {
+							console.log(res.data);
+							$("#main-content").html(res.data);
+						})
+				},
+			},
+			mounted() {
+				this.fill();
+			}
+		})
+    </script>
+</body>
+</html>
+
+

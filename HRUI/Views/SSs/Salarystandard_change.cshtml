@@ -1,0 +1,187 @@
+﻿@using EFCore.Models;
+@model SSs;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	var list = ViewData["SSDs"] as string;
+	var tj = ViewData["tj"] as string;
+}
+<div id="Salarystandard_change">
+	<form id="submitForm">
+		<table width="100%">
+			<tr>
+				<td>
+					<font color="black">您正在做的业务是:人力资源管理--薪酬标准管理--薪酬标准登记变更</font>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div align="right">
+						<input type="button" value="重新提交" v-on:click="uploadForm('@Url.Action("Salarystandard_change_success","SSs")')" class="btn btn-success">
+						<input type="button" value="返回" class="btn btn-info"
+								v-on:click='updatePage("/SSs/BackSalarystandard_query_list?tj=@tj")'>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<table width="100%" border="1" cellpadding=0 cellspacing=1
+				bordercolorlight=#848284 bordercolordark=#eeeeee
+				class="table">
+			<tr>
+				<td width="12%" class="TD_STYLE1">
+					薪酬编号
+				</td>
+				<td width="15%" class="TD_STYLE2">
+					<input type="text" name="StandardId" readonly value="@Model.StandardId" class="form-control">
+				</td>
+				<td width="12%" class="TD_STYLE1">
+					薪酬标准名称
+				</td>
+				<td width="11%" class="TD_STYLE2">
+					<input type="text" name="StandardName" value="@Model.StandardName" class="form-control">
+				</td>
+				<td width="11%" class="TD_STYLE1">
+					薪酬总额
+				</td>
+				<td width="17%" class="TD_STYLE2">
+					<input type="text" name="SalarySum" v-model="sumSalary" class="form-control" readonly>
+				</td>
+				<td width="12%" class="TD_STYLE1">
+					&nbsp;
+				</td>
+				<td width="10%" class="TD_STYLE2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td class="TD_STYLE1">
+					制定人
+				</td>
+				<td class="TD_STYLE2">
+					<input type="text" name="Designer" readonly value="@Model.Designer" class="form-control">
+				</td>
+				<td class="TD_STYLE1">
+					变更人
+				</td>
+				<td class="TD_STYLE2">
+					<input type="text"  v-model="uName" readonly class="form-control">
+					<input type="hidden" name="Changer" v-model="uId">
+				</td>
+				<td class="TD_STYLE1">
+					变更时间
+				</td>
+				<td class="TD_STYLE2">
+					<input type="text" name="ChangeTime" readonly v-model="ChangeTime" class="form-control">
+				</td>
+				<td class="TD_STYLE1">
+					&nbsp;
+				</td>
+				<td class="TD_STYLE2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td class="TD_STYLE1">
+					备注
+				</td>
+				<td colspan="7" class="TD_STYLE2">
+					<textarea name="Remark" rows="4" class="form-control">@Model.Remark</textarea>
+				</td>
+			</tr>
+			<!-- 薪酬设置选项 -->
+			<tr>
+				<td class="TD_STYLE1">
+					序号
+				</td>
+				<td colspan="3" class="TD_STYLE1">
+					薪酬项目名称
+				</td>
+				<td colspan="4" class="TD_STYLE1">
+					金额
+				</td>
+			</tr>
+			<input type="hidden" v-model="JsonSSDs" name="JsonSSDs" />
+			<input type="hidden" value="@tj" name="tj" />
+				<tr class="TD_STYLE2" v-for="(item, index) in slist">
+					<td align="center">
+						<input type="hidden" v-model="item.ItemId" />
+					{{ item.ItemId }}
+					</td>
+					<td colspan="3">
+						{{ item.ItemName }}
+					</td>
+					<td>
+						<input type="text" v-model="item.Salary" v-on:blur="changeSalay()" class="form-control">
+					</td>
+					<td colspan="3">
+						&nbsp;
+					</td>
+				</tr>
+		</table>
+	</form>
+</div>
+<script>
+	new Vue({
+		el: '#Salarystandard_change',
+		data: {
+			ChangeTime:'',
+			uName:'',
+			uId:'',
+			slist:[],	// 薪酬设置
+			sumSalary:0,//金额总和
+			JsonSSDs:'',// 金额详情的JSON类型
+		},
+		methods: {
+			/**
+			 * 获取当前时间
+			 */
+			getTime() {
+				var time = new Date();
+				return time.getFullYear() + '-' + (time.getMonth() + 1) + '-' + time.getDate();
+			},
+			/**
+			* 跳转页面
+			*/
+			updatePage(url) {
+				axios.get(url)
+					.then(res => {
+						$("#main-content").html(res.data);
+					})
+			},
+			/**
+				* 做表单异步上传
+				*/
+			uploadForm(url) {
+				$.post(url, $("#submitForm").serialize(),
+					function (data) {
+						console.log(data);
+						$("#main-content").html(data);
+					}
+				)
+			},
+			/**
+				* 修改金额后计算总和
+				*/
+			changeSalay() {
+				var self = this;
+				self.sumSalary = 0;
+				for (var a in self.slist) {
+					self.sumSalary += parseFloat(self.slist[a].Salary);
+				}
+				self.JsonSSDs = JSON.stringify(self.slist);
+			},
+		},
+		mounted() {
+			var self = this; // 保存Vue实例引用
+			setInterval(function () {
+				self.ChangeTime = self.getTime(); // 使用self来引用Vue实例，并调用getTime()方法
+			}, 1000);
+			var loginUser = JSON.parse(sessionStorage.getItem('LoginUser'));
+			self.uId = loginUser.uId;
+			self.uName = loginUser.uName;
+			this.slist = JSON.parse('@list'.replace(/&quot;/g, '"'));
+			this.changeSalay();
+		}
+	});
+</script>

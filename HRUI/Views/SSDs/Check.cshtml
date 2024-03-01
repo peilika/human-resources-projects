@@ -1,0 +1,306 @@
+﻿@using HREF.Model;
+
+@model SalaryPayViewModel
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+    <div id="Salarystandard_check_list">
+        <template>
+            <el-table :data="table"
+                      border
+                      style="width: 100%">
+                <el-table-column fixed
+                                 prop="grdId"
+                                 label="序号"
+                                 width="150">
+                </el-table-column>
+                <el-table-column prop="salaryGrantId"
+                                 label="档案编号"
+                                 width="120">
+                </el-table-column>
+                <el-table-column prop="humanName"
+                                 label="姓名"
+                                 width="120">
+                </el-table-column>
+
+                <el-table-column fixed="right"
+                                 label="操作"
+                                 width="800">
+                    <template slot-scope="scope">
+                        <el-button v-on:click="handleClick(scope.row)" type="text" size="small">查看薪资明细</el-button>
+                        <el-button type="text" v-on:click="handleClick2(scope.row)" size="small">设置奖扣明细</el-button>
+                        <el-button type="text" v-on:click="update(scope.row)" size="small">复核</el-button>
+                    </template>
+                </el-table-column>
+            </el-table>
+        </template>
+
+        <el-dialog :visible.sync="dialogVisible" title="薪资明细展示">
+           
+            <el-avatar src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2Fea18bce2-6ee6-477b-9980-7af091e43a8f%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1707644558&t=70e0da84e7994992eb18252d11bb906f"></el-avatar>
+            <div>
+                <el-link type="primary">用户17716727726</el-link>
+
+            </div>
+
+            <div class="chart-container" style="width:728px; height: 200px;" ref="chart"></div>
+            <el-carousel height="150px">
+                <el-carousel-item>
+                    <img src="~/images/nk2.gif" style="width:100%;" />
+                </el-carousel-item>
+                <el-carousel-item>
+                    <img src="~/images/gg.webp" style="width:100%;" />
+                </el-carousel-item>
+                <el-carousel-item>
+                    <img src="~/images/bb.webp" style="width:100%;" />
+                </el-carousel-item>
+            </el-carousel>
+        </el-dialog>
+
+
+
+
+        <el-dialog :visible.sync="dialogVisible2" title="薪资明细展示">
+            <el-avatar src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2Fea18bce2-6ee6-477b-9980-7af091e43a8f%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1707644558&t=70e0da84e7994992eb18252d11bb906f"></el-avatar>
+            <div>
+                <el-link type="primary">用户17716727726</el-link>
+
+            </div>
+            奖励金额<el-input v-model="a">奖励金额</el-input>
+            销售绩效总额 <el-input v-model="b">销售绩效总额</el-input>
+            应扣金额 <el-input v-model="c">应扣金额</el-input>
+            最终额度 <el-input v-model="d">最终额度</el-input>
+            <el-button round v-on:click="queruen">确认</el-button>
+        </el-dialog>
+
+
+    </div>
+    <script>
+        new Vue({
+            el: '#Salarystandard_check_list',
+            data: {
+                // 饼状图数据
+                option: {
+                    backgroundColor: '#2c343c',
+                    title: {
+                        text: 'Customized Pie',
+                        left: 'center',
+                        top: 20,
+                        textStyle: {
+                            color: '#ccc'
+                        }
+                    },
+                    tooltip: {
+                        trigger: 'item'
+                    },
+                    visualMap: {
+                        show: false,
+                        min: 80,
+                        max: 600,
+                        inRange: {
+                            colorLightness: [0, 1]
+                        }
+                    },
+                    series: []
+                }
+                ,
+                nb: [],
+                dialogVisible: false,
+                dialogVisible2: false,
+                id: '@ViewData["idd"]',
+                id2: '@ViewData["idd2"]',
+                table: [],
+                table2: [],
+                a: '',
+                b: '',
+                c: '',
+                d: '',
+                iddd: '',
+            },
+            methods: {
+                tz() {
+                    var url = "@Url.Action("Register_locate", "SSDs")";
+                    $.ajax({
+                        url: url,
+                        type: "GET",
+                        success: function (result) {
+                            $("#main-content").html(result);
+                        },
+                        error: function (xhr, status, error) {
+                            console.log(error);
+                        }
+                    });
+                },
+                update(row) {
+                    // 获取当前时间
+                    let currentDate = new Date();
+
+                    // 格式化当前时间为 "2012-12-12" 格式
+                    let year = currentDate.getFullYear();
+                    let month = String(currentDate.getMonth() + 1).padStart(2, '0');
+                    let day = String(currentDate.getDate()).padStart(2, '0');
+                    const m = row.salaryGrantId;
+                    let date = `${year}-${month}-${day}`;
+
+                    axios.get(`/SSDs/drigDJs?date=${date}&StandardId=${m}`)
+                        .then(response => {
+                            // 请求成功，更新页面数据
+                            alert("复核成功!")
+
+                            this.tz();
+
+
+                        })
+                        .catch(error => {
+                            // 请求失败，处理错误
+                            console.error(error);
+                        });
+
+
+
+                },
+                handleClick(row) {
+                    this.dialogVisible = true;
+                    console.log(row);
+                
+                    axios.get(`/SSDs/ssd2query?id=${this.id2}`)
+                        .then(response => {
+                            // 请求成功，更新页面数据
+                            console.log(response.data);
+                            var dataList = [];
+                            for (var item in response.data) {
+                                var a = { value: response.data[item].salary, name: response.data[item].itemName };
+                                console.log(item);
+                                dataList.push(a);
+                            }
+                            console.log(dataList)
+                            this.option.series.push({
+                                name: 'Access From',
+                                type: 'pie',
+                                radius: '55%',
+                                center: ['50%', '50%'],
+                                data: dataList.sort(function (a, b) {
+                                    return a.value - b.value;
+                                }),
+                                roseType: 'radius',
+                                label: {
+                                    color: 'rgba(255, 255, 255, 0.3)'
+                                },
+                                labelLine: {
+                                    lineStyle: {
+                                        color: 'rgba(255, 255, 255, 0.3)'
+                                    },
+                                    smooth: 0.2,
+                                    length: 10,
+                                    length2: 20
+                                },
+                                itemStyle: {
+                                    color: '#c23531',
+                                    shadowBlur: 200,
+                                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                                },
+                                animationType: 'scale',
+                                animationEasing: 'elasticOut',
+                                animationDelay: function (idx) {
+                                    return Math.random() * 200;
+                                }
+                            })
+
+                            // { value: 335, name: 'Direct' },
+
+
+                            // 获取图表容器
+                            const chartContainer = this.$refs.chart;
+                            console.log(chartContainer);
+
+                            // 创建 ECharts 实例
+                            const chart = echarts.init(chartContainer);
+
+                            // 设置图表选项
+                            chart.setOption(this.option);
+
+                            // 自适应大小
+                            window.addEventListener('resize', () => { chart.resize() });
+                        })
+                        .catch(error => {
+                            // 请求失败，处理错误
+                            console.error(error);
+                        });
+                },
+                handleClick2(row) {
+                    this.dialogVisible2 = true;
+                    console.log(row);
+                    this.iddd = row.grdId;
+                    axios.get(`/SSDs/ssd3query?id=${this.iddd}`)
+                        .then(response => {
+                            // 请求成功，更新页面数据
+                            console.log(response.data);
+                            this.a = response.data.bounsSum;
+                            this.b = response.data.saleSum;
+                            this.c = response.data.deductSum;
+                           
+
+                        })
+                        .catch(error => {
+                            // 请求失败，处理错误
+                            console.error(error);
+                        });
+                },
+                editItem() {
+                    axios.get(`/SSDs/Registerupda2?id=${this.id}`)
+                        .then(response => {
+                            // 请求成功，更新页面数据
+                            this.table = response.data;
+                         
+                        })
+                        .catch(error => {
+                            // 请求失败，处理错误
+                            console.error(error);
+                        });
+
+
+
+                },
+                queruen() {
+                    axios.get(`/SSDs/xgssg?id=${this.iddd}&a=${this.a}&b=${this.b}&c=${this.c}`)
+                        .then(response => {
+                            // 请求成功，更新页面数据
+                            alert("成功!")
+                            this.dialogVisible2 = false;
+                            this.a = null;
+                            this.b = null;
+                            this.c = null;
+                            this.d = null;
+                        })
+                        .catch(error => {
+                            // 请求失败，处理错误
+                            console.error(error);
+                        });
+
+
+                },
+            },
+
+
+
+            mounted() {
+                this.editItem();
+                setInterval(() => {
+                    const a = parseInt(this.a);
+                    const b = parseInt(this.b);
+                    const c = parseInt(this.c);
+                    this.d = a + b - c;
+
+
+                }, 1000)
+
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,367 @@
+﻿@using EFCore.Models;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	var roles = ViewData["list"] as Roles;
+	var rjur = ViewData["JurID"] as List<Jurisdictions>;
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>编辑角色</title>
+
+	<script>
+		function getSelectedValue() {
+			var selectElement = document.getElementById("mySelect");
+			var selectedValue = selectElement.options[selectElement.selectedIndex].value;
+			document.getElementById("RolesIf").value = selectedValue;
+		}
+	</script>
+
+	</head>
+	<body>
+	<div id="Right_list_information">
+		<form id="submitForm">
+		<table width="100%">
+			<tr>
+				<td>
+					<font color="black">您正在做的业务是：人力资源--权限管理--编辑角色</font>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">
+						<input type="button" value="保存" class="BUTTON_STYLE1" id="submitButton" :data-url="getUrl" onclick="getSelectedValue()" />
+						<input type="hidden" value="@roles.RolesID" id="RolesID" name="RolesID" />
+						<input type="hidden" value="" id="RolesIf" name="RolesIf" />
+					<input type="button" value="返回" class="BUTTON_STYLE1 updatePage" data-url="/Powers/Right_List">
+				</td>
+			</tr>
+		</table>
+		<table width="100%" border="1" cellpadding=3 cellspacing=1
+			   bordercolorlight=#848284 bordercolordark=#eeeeee
+			   class="TABLE_STYLE1">
+			<tr>
+				<td class="TD_STYLE1">角色编号</td>
+				<td>
+                        <el-input placeholder="请输入用户名" v-model="RolesID" style="width: 200px;"></el-input>
+                        <input type="hidden" v-model="RolesID" name="RolesID" />
+				</td>
+					
+
+				<td class="TD_STYLE1">角色名称</td>
+					<td class="TD_STYLE2">
+						<el-input placeholder="请输入用户名" v-model="RolesName" style="width: 200px;"></el-input>
+						<input type="hidden" v-model="RolesName" name="RolesName" />
+                    </td>
+			</tr>
+			<tr>
+				<td class="TD_STYLE1">角色说明</td>
+				<td class="TD_STYLE2">
+						<el-input placeholder="请输入用户名" v-model="RolesInstruction" style="width: 200px;"></el-input>
+						<input type="hidden" v-model="RolesInstruction" name="RolesInstruction" />
+				</td>
+
+				<td class="TD_STYLE1">角色是否可用</td>
+				<td class="TD_STYLE2">
+					<el-select v-model="RolesIf" style="width: 200px;">
+						<el-option label="是" value="1"></el-option>
+						<el-option label="否" value="0"></el-option>
+					</el-select>
+					<input type="hidden" v-model="RolesIf" name="RolesIf" />
+				</td>
+			</tr>
+		</table>
+		<table>
+				<el-tree :data="data"
+						 show-checkbox
+						 node-key="id"
+						 :props="defaultProps"
+						 :default-checked-keys="result"
+						 ref="tree">
+				</el-tree>
+		</table>
+        </form>
+		<button v-on:click="handleClick">权限已准备就绪</button>
+	</div>
+	
+	<script src="~/js/updatego.js"></script>
+	<script>
+		new Vue({
+			el: '#Right_list_information',
+			data: {
+				data: [{
+					id: 1,
+					label: '招聘管理',
+					children: [{
+						id: 2,
+						label: '职位发布管理',
+						children: [{
+							id: 3,
+							label: '职位发布登记'
+						}, {
+							id: 4,
+							label: '职位发布变更'
+						}, {
+							id: 5,
+							label: '职位发布查询'
+						}]
+					}, {
+						id: 6,
+						label: '简历管理',
+						children: [{
+							id: 7,
+							label: '简历登记'
+						}, {
+							id: 8,
+							label: '简历筛选'
+						}, {
+							id: 9,
+							label: '有效简历查询'
+						}]
+					}, {
+						id: 10,
+						label: '面试管理',
+						children: [{
+							id: 11,
+							label: '面试结构登记'
+						}, {
+							id: 12,
+							label: '面试筛选'
+						}]
+					}, {
+						id: 13,
+						label: '录用管理',
+						children: [{
+							id: 14,
+							label: '录用申请'
+						}, {
+							id: 15,
+							label: '录用审批'
+						}, {
+							id: 16,
+							label: '录用查询'
+						}]
+					}]
+				}, {
+					id: 17,
+						label: '人力资源档案管理',
+						children: [{
+							id: 18,
+							label: '人力资源档案登记'
+						}, {
+							id: 19,
+							label: '人力资源档案登记复核'
+						}, {
+							id: 20,
+							label: '人力资源档案查询'
+						}, {
+							id: 21,
+							label: '人力资源档案变更'
+						}, {
+							id: 22,
+							label: '人力资源档案删除变更',
+							children: [{
+								id: 23,
+								label: '人力资源档案删除'
+							}, {
+								id: 24,
+								label: '档案删除恢复'
+							}, {
+								id: 25,
+								label: '人力资源档案永久删除'
+							}]
+						}]
+				}, {
+					id: 26,
+					label: '薪酬标准管理',
+					children: [{
+							id: 27,
+							label: '薪酬标准登记',
+						}, {
+							id: 28,
+							label: '薪酬标准登记复核',
+						}, {
+							id: 29,
+							label: '薪酬标准查询',
+						}, {
+							id: 30,
+							label: '薪酬标准变更',
+						}]
+				}, {
+					id: 31,
+					label: '薪酬发放管理',
+					children: [{
+							id: 32,
+							label: '薪酬发放登记',
+						}, {
+							id: 33,
+							label: '薪酬发放登记复核',
+						}, {
+							id: 34,
+							label: '薪酬发放查询',
+						}]
+				}, {
+					id: 35,
+					label: '调动管理',
+					children: [{
+							id: 36,
+							label: '调动登记',
+						}, {
+							id: 37,
+							label: '调动审核',
+						}, {
+							id: 38,
+							label: '调动查询',
+						}]
+				}, {
+					id: 39,
+					label: '客户化设置',
+					children: [{
+							id: 40,
+							label: '人力资源档案管理设置',
+							children: [{
+								id: 41,
+								label: 'I级机构设置',
+							}, {
+								id: 42,
+								label: 'II级机构设置',
+							}, {
+								id: 43,
+								label: 'III级机构设置',
+							}, {
+								id: 44,
+								label: '职称设置',
+							}, {
+								id: 45,
+								label: '职位分类设置',
+							}, {
+								id: 46,
+								label: '职位设置',
+							}, {
+								id: 47,
+								label: '公共属性设置',
+							}]
+						}, {
+							id: 48,
+							label: '薪酬管理设置',
+							children: [{
+								id: 49,
+								label: '薪酬管理设置',
+							}, {
+								id: 50,
+								label: '薪酬发放方式设置',
+							}]
+						}, {
+							id: 51,
+							label: '其他设置',
+							children: [{
+								id: 52,
+								label: '关键字查询设置',
+							}]
+						}]
+				}, {
+					id: 53,
+					label: '标准数据报表',
+					children: [{
+						id: 54,
+						label: 'Excel标准数据报表',
+					}, {
+						id: 55,
+						label: 'Pdf标准数据报表',
+					}, {
+						id: 56,
+						label: 'Xml标准数据报表',
+					}]
+				}, {
+					id: 57,
+					label: '权限管理',
+					children:[{
+						id: 58,
+						label: '用户管理',
+					},{
+						id: 59,
+						label: '角色管理',
+					}]
+					}],
+				defaultProps: {
+					children: 'children',
+					label: 'label'
+				},
+				uniqueArray:[],
+				rjur: @Html.Raw(Json.Serialize(ViewData["JurID"])),
+				selected:[],
+				result:[],
+				RolesID:"",
+				RolesName: "",
+				RolesInstruction: "",
+				RolesIf: "",
+			},
+			mounted() {
+				this.$nextTick(() => {
+					// 在组件加载完毕后调用getCheckedKeys方法
+					const checkedKeys = this.$refs.tree.getCheckedKeys();
+					for (var index in this.rjur) {
+						this.selected.push(this.rjur[index].juriID);
+					}
+					this.result = this.selected;
+				});
+
+				var encoded = '@roles.RolesID';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.RolesID = decoded;
+
+				var encoded = '@roles.RolesName';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.RolesName = decoded;
+
+				var encoded = '@roles.RolesInstruction';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.RolesInstruction = decoded;
+
+				var encoded = '@roles.RolesIf';
+				var div = document.createElement('div');
+				div.innerHTML = encoded;
+				var decoded = div.innerText;
+				this.RolesIf = decoded;
+			}, methods: {
+				handleClick() {
+					const checkedKeys = this.$refs.tree.getCheckedKeys(); // 获取所有选中的节点id值
+
+					const allParentIds = new Set(); // 使用Set来存储所有不重复的父节点的id
+
+					checkedKeys.forEach(key => {
+						let node = this.$refs.tree.getNode(key);
+						while (node.parent) {
+							allParentIds.add(node.parent.data.id);
+							node = node.parent;
+						}
+					});
+
+					const allParentIdsArray = Array.from(allParentIds); // 将Set转换为数组
+
+					const combinedArray = checkedKeys.concat(allParentIdsArray); // 将子节点和父节点的数组合并
+
+					this.uniqueArray = Array.from(new Set(combinedArray)); // 使用Set来清除重复项，并转换为数组
+				},
+			},
+			computed: {
+				getUrl() {
+					var uniqueArrayString = this.uniqueArray.join(",");
+					var a = `/Powers/Right_list_information?Jurisdiction=${uniqueArrayString}&rid=@roles.RolesID`;
+					console.log(a);
+					return a;
+				}
+
+			}
+		})
+	</script>
+	</body>
+</html>
